@@ -1,0 +1,13 @@
+{
+	"name":         "vbb-station-photos",
+	"description":  "Photos of every subway station in Berlin.",
+	"version":      "0.1.0",
+	"main":         "index.js",
+	"files":        ["index.js", "photos.json"],
+	"keywords":     ["vbb", "stations", "photos", "subway", "ubahn"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/vbb-station-photos",
+	"repository":   "derhuerst/vbb-station-photos",
+	"license":      "ISC",
+	"engines":      {"node": ">=4"}
+}
