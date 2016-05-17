@@ -3,7 +3,9 @@
 **Photos of every subway station in Berlin.** Thanks to [*ingolfbln*](https://www.flickr.com/photos/ingolfbln)!
 
 [![npm version](https://img.shields.io/npm/v/vbb-station-photos.svg)](https://www.npmjs.com/package/vbb-station-photos)
+[![build status](https://img.shields.io/travis/derhuerst/vbb-station-photos.svg)](https://travis-ci.org/derhuerst/vbb-station-photos)
 [![dependency status](https://img.shields.io/david/derhuerst/vbb-station-photos.svg)](https://david-dm.org/derhuerst/vbb-station-photos)
+[![dev dependency status](https://img.shields.io/david/dev/derhuerst/vbb-station-photos.svg)](https://david-dm.org/derhuerst/vbb-station-photos#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-station-photos.svg)
 
 
