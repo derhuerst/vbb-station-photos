@@ -10,13 +10,13 @@
 	"repository":   "derhuerst/vbb-station-photos",
 	"license":      "ISC",
 	"engines":      {"node": ">=4"},
-	"devDependencies": {
+	"dependencies": {
 		"got": "^6.3",
 		"queue": "^4",
 		"flickr-photo-url": "^0.1"
 	},
 	"scripts": {
-		"build":    "rm data/*.jpg;node build/download.js",
+		"build":    "rm data/*.jpg;node build.js",
 		"install":  "npm run build"
 	}
 }

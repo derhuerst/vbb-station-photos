@@ -18,13 +18,13 @@ Object.keys(list).forEach((station) => {
 	const lines = list[station]
 	Object.keys(lines).forEach((line) => {
 		const photos = lines[line]
-		if (!Array.isArray(photos)) return
-		photos.forEach((photo, i) => q.push((next) => {
+		Object.keys(photos).forEach((perspective, i) => q.push((next) => {
+			const photo = photos[perspective]
 
 			url('ingolfbln', photo, 'z').catch(next)
 			.then((url) => new Promise((yay, nay) => {
 
-				const file = [station, line, i].join('-') + '.jpg'
+				const file = [station, line, perspective].join('-') + '.jpg'
 				got.stream(url).on('error', nay)
 				.pipe(fs.createWriteStream(path.join(b, file)))
 				.on('error', nay).on('finish', () => yay(file))
