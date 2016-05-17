@@ -6,7 +6,7 @@ const url    = require('flickr-photo-url')
 const got    = require('got')
 const fs     = require('fs')
 
-const list   = require('../photos')
+const list   = require('./photos')
 
 
 
