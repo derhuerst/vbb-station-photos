@@ -6,7 +6,7 @@ const url    = require('flickr-photo-url')
 const got    = require('got')
 const fs     = require('fs')
 
-const list   = require('../data/list')
+const list   = require('../photos')
 
 
 
@@ -31,7 +31,7 @@ Object.keys(list).forEach((station) => {
 
 			})).catch(next)
 			.then((file) => {
-				console.info(photo, '->', file, '✓')
+				console.info(`${photo} -> ${file} ✓`)
 				next()
 			})
 		}))

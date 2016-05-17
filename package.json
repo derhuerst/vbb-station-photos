@@ -16,10 +16,7 @@
 		"flickr-photo-url": "^0.1"
 	},
 	"scripts": {
-		"clean":    "rm data/*.jpg;rm data/list.js",
-		"list":     "node build/list.js",
-		"download": "node build/download.js",
-		"build":    "npm run clean;npm run list;npm run download",
+		"build":    "rm data/*.jpg;node build/download.js",
 		"install":  "npm run build"
 	}
 }
