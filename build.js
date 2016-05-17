@@ -10,7 +10,7 @@ const list   = require('./photos')
 
 
 
-const b = path.join(__dirname, '..', 'data')
+const b = path.join(__dirname, '.', 'data')
 const q = queue()
 q.concurrency = 3
 
@@ -20,17 +20,18 @@ Object.keys(list).forEach((station) => {
 		const photos = lines[line]
 		Object.keys(photos).forEach((perspective, i) => q.push((next) => {
 			const photo = photos[perspective]
+			const file = [station, line, perspective].join('-') + '.jpg'
+			console.log(photo, file)
 
 			url('ingolfbln', photo, 'z').catch(next)
 			.then((url) => new Promise((yay, nay) => {
 
-				const file = [station, line, perspective].join('-') + '.jpg'
 				got.stream(url).on('error', nay)
 				.pipe(fs.createWriteStream(path.join(b, file)))
-				.on('error', nay).on('finish', () => yay(file))
+				.on('error', nay).on('finish', () => yay())
 
 			})).catch(next)
-			.then((file) => {
+			.then(() => {
 				console.info(`${photo} -> ${file} ✓`)
 				next()
 			})
