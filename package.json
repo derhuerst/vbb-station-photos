@@ -9,5 +9,17 @@
 	"homepage":     "https://github.com/derhuerst/vbb-station-photos",
 	"repository":   "derhuerst/vbb-station-photos",
 	"license":      "ISC",
-	"engines":      {"node": ">=4"}
+	"engines":      {"node": ">=4"},
+	"devDependencies": {
+		"got": "^6.3",
+		"queue": "^4",
+		"flickr-photo-url": "^0.1"
+	},
+	"scripts": {
+		"clean":    "rm data/*.jpg;rm data/list.js",
+		"list":     "node build/list.js",
+		"download": "node build/download.js",
+		"build":    "npm run clean;npm run list;npm run download",
+		"install":  "npm run build"
+	}
 }
