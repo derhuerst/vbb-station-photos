@@ -20,12 +20,12 @@ Object.keys(list).forEach((station) => {
 		const photos = lines[line]
 		Object.keys(photos).forEach((perspective) => q.push((next) => {
 
-			const photo = photos[perspective]
-			if (!photo) return next(new Error(
+			if (!photos[perspective]) return next(new Error(
 				`Missing ${perspective} photo for ${line} at ${station}`))
+			const [user, photo] = photos[perspective]
 			const file = [station, line, perspective].join('-') + '.jpg'
 
-			url('ingolfbln', photo, 'z').catch(next)
+			url(user, photo, 'z').catch(next)
 			.then((url) => new Promise((yay, nay) => {
 
 				got.stream(url).on('error', nay)
@@ -34,7 +34,7 @@ Object.keys(list).forEach((station) => {
 
 			})).catch(next)
 			.then(() => {
-				console.info(`${photo} -> ${file} ✓`)
+				console.info(`${user}/${photo} -> ${file} ✓`)
 				next()
 			})
 		}))
