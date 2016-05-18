@@ -320,7 +320,7 @@ module.exports = {
 		U8:  {label: 6335985722,  platform: 6335324081}
 	},
 	'9045101': { // U Rüdesheimer Platz
-		u3:  {label: 8990573305,  platform: 8990554073}
+		U3:  {label: 8990573305,  platform: 8990554073}
 	},
 	'9083201': { // U Rudow
 		U7:  {label: 15759633679, platform: 15759612639}

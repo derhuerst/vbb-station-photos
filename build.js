@@ -12,16 +12,18 @@ const list   = require('./photos')
 
 const b = path.join(__dirname, '.', 'data')
 const q = queue()
-q.concurrency = 3
+q.concurrency = 5
 
 Object.keys(list).forEach((station) => {
 	const lines = list[station]
 	Object.keys(lines).forEach((line) => {
 		const photos = lines[line]
-		Object.keys(photos).forEach((perspective, i) => q.push((next) => {
+		Object.keys(photos).forEach((perspective) => q.push((next) => {
+
 			const photo = photos[perspective]
+			if (!photo) return next(new Error(
+				`Missing ${perspective} photo for ${line} at ${station}`))
 			const file = [station, line, perspective].join('-') + '.jpg'
-			console.log(photo, file)
 
 			url('ingolfbln', photo, 'z').catch(next)
 			.then((url) => new Promise((yay, nay) => {
@@ -39,7 +41,8 @@ Object.keys(list).forEach((station) => {
 	})
 })
 
-q.start((err) => {
-	if (err) return console.error(err.stack)
-	console.log('success')
+q.start()
+q.on('error', (err) => {
+	console.error(err.message)
+	q.start()
 })
