@@ -18,7 +18,17 @@ npm install vbb-station-photos
 
 ## Usage
 
-todo
+```
+photo(stationId, line, [perspective])
+```
+
+Returns the file path as a string.
+
+```js
+const photo = require('vbb-station-photos')
+console.log(photo(9007103, 'U8', 'label'))
+// /Users/j/web/vbb-station-photos/data/9007103-U8-label.jpg
+```
 
 
 ## Contributing

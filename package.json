@@ -5,7 +5,7 @@
 	"main":         "index.js",
 	"files":        ["index.js", "photos.json"],
 	"keywords":     ["vbb", "stations", "photos", "subway", "ubahn"],
-	"author":       "Jannis R <mail@jannisr.de>",
+	"authors":      ["Jannis R <mail@jannisr.de>", "Julius Tens <mail@julius-tens.de>"],
 	"homepage":     "https://github.com/derhuerst/vbb-station-photos",
 	"repository":   "derhuerst/vbb-station-photos",
 	"license":      "ISC",
