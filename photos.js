@@ -5,7 +5,7 @@ module.exports = {
 	'9100003': { // S+U Alexanderplatz
 		U2:  {label: ['ingolfbln', 6977132297],  platform: ['ingolfbln', 6831050998]},
 		U5:  {label: ['ingolfbln', 6904300029],  platform: ['ingolfbln', 6904572417]},
-		U8:  {label: null,        platform: ['ingolfbln', 7624771658]}
+		U8:  {label: null,                       platform: ['ingolfbln', 7624771658]}
 	},
 	'9011102': { // U Afrikanische Straße
 		U6:  {label: ['ingolfbln', 24350635584], platform: ['ingolfbln', 15241241614]}
@@ -28,6 +28,10 @@ module.exports = {
 	'9055102': { // U Bayerischer Platz
 		U4:  {label: ['ingolfbln', 6444018965],  platform: ['ingolfbln', 6444065621]},
 		U7:  {label: ['ingolfbln', 6443862789],  platform: ['ingolfbln', 6443871455]}
+	},
+	'9044201': { // U Berliner Str.
+		U7:  {label: ['142745322@N06', 27760600346], platform: null},
+		U9:  {label: ['142745322@N06', 27760595616], platform: null}
 	},
 	'9007110': { // U Bernauer Str.
 		U8:  {label: ['ingolfbln', 6335397247],  platform: ['ingolfbln', 6335405259]}
@@ -62,6 +66,9 @@ module.exports = {
 	},
 	'9003254': { // U Bundestag
 		U55: {label: ['ingolfbln', 22004585159], platform: ['ingolfbln', 22003394950]}
+	},
+	'9044202': { // S+U Bundesplatz
+		U9: {label: ['142745322@N06', 27183844933], platform: null}
 	},
 	'9022201': { // U Deutsche Oper
 		U2:  {label: ['ingolfbln', 6420520007],  platform: ['ingolfbln', 6420536747]}
@@ -114,7 +121,7 @@ module.exports = {
 		U7:  {label: ['ingolfbln', 8389921395],  platform: ['ingolfbln', 8389896257]}
 	},
 	'9043201': { // U Güntzelstr.
-		U9:  {label: ['ingolfbln', 7173823835],  platform: ['ingolfbln', 7811698154]}
+		U9:  {label: ['142745322@N06', 27183838403],  platform: ['ingolfbln', 7811698154]}
 	},
 	'9018102': { // U Halemweg
 		U7:  {label: ['ingolfbln', 8447783145],  platform: ['ingolfbln', 8448906202]}
@@ -128,6 +135,9 @@ module.exports = {
 	},
 	'9034102': { // U Haselhorst
 		U7:  {label: ['ingolfbln', 8480566324],  platform: ['ingolfbln', 8480519654]}
+	},
+	'9003201': { // S+U Hauptbahnhof
+		U55: {label: ['142745322@N06', 27516604790],  platform: null}
 	},
 	'9100012': { // U Hausvogteiplatz
 		U2:  {label: ['ingolfbln', 8428213432],  platform: ['ingolfbln', 8427115893]}
@@ -159,7 +169,7 @@ module.exports = {
 	},
 	'9068302': { // U Kaiserin-Augusta-Str.
 		// todo: still under construction?
-		U6:  {label: null,        platform: ['ingolfbln', 15817428556]}
+		U6:  {label: null,                       platform: ['ingolfbln', 15817428556]}
 	},
 	'9096458': { // S+U Karl-Bonhoeffer-Nervenklinik
 		U8:  {label: ['ingolfbln', 7807059838],  platform: ['ingolfbln', 7807052574]}
@@ -173,6 +183,9 @@ module.exports = {
 	'9100015': { // U Klosterstr.
 		U2:  {label: ['ingolfbln', 6336269032],  platform: ['ingolfbln', 6336236448]}
 	},
+	'9012102': { // U Kochstr./Checkpoint Charlie
+		U6:  {label: ['142745322@N06', 27516587910],  platform: null}
+	},
 	'9041201': { // U Konstanzer Str.
 		U7:  {label: ['ingolfbln', 9096834614],  platform: ['ingolfbln', 9094593099]}
 	},
@@ -182,7 +195,7 @@ module.exports = {
 	},
 	'9050201': { // U Krumme Lanke
 		// todo: missing photos showing name & platform
-		U3:  {label: null,        platform: ['ingolfbln', 6267533351]}
+		U3:  {label: null,                       platform: ['ingolfbln', 6267533351]}
 	},
 	'9023203': { // U Kurfürstendamm
 		U1:  {label: ['ingolfbln', 8380738819],  platform: ['ingolfbln', 8380734785]},
@@ -197,7 +210,7 @@ module.exports = {
 	},
 	'9086160': { // U Lindauer Allee
 		// todo: missing photo showing the name
-		U8:  {label: null,        platform: ['ingolfbln', 7806998528]}
+		U8:  {label: null,                       platform: ['ingolfbln', 7806998528]}
 	},
 	'9009102': { // U Leopoldplatz
 		U6:  {label: ['ingolfbln', 7618720358],  platform: ['ingolfbln', 7618757186]},
@@ -251,12 +264,15 @@ module.exports = {
 		// https://www.flickr.com/photos/ingolfbln/11279253956/in/album-72157629097619388/
 		// todo: missing photo showing the name
 		U1:  {label: ['ingolfbln', 6933099425],  platform: ['ingolfbln', 6786986386]},
-		U2:  {label: null,        platform: ['ingolfbln', 7184373680]},
+		U2:  {label: null,                       platform: ['ingolfbln', 7184373680]},
 		U3:  {label: ['ingolfbln', 6933099425],  platform: ['ingolfbln', 6786986386]},
 		U4:  {label: ['ingolfbln', 6933099425],  platform: ['ingolfbln', 6786962078]}
 	},
 	'9025203': { // U Olympia-Stadion
 		U2:  {label: ['ingolfbln', 8021175922],  platform: ['ingolfbln', 8021163581]}
+	},
+	'9100019': { // U Oranienburger Tor
+		U6:  {label: ['142745322@N06', 27516578870],  platform: null}
 	},
 	'9009202': { // U Osloer Str.
 		U8:  {label: ['ingolfbln', 7618273800],  platform: ['ingolfbln', 7618276924]},
@@ -446,9 +462,9 @@ module.exports = {
 		U8:  {label: ['ingolfbln', 6528982091],  platform: ['ingolfbln', 6528938699]},
 	},
 	'9023201': { // S+U Zoologischer Garten
-		U2:  {label: ['pasa', 5864038454], platform: ['galio', 4610552275]},
+		U2:  {label: ['pasa', 5864038454],       platform: ['galio', 4610552275]},
 		// todo: glynlowe/23075396060 ?
-		U9:  {label: null, platform: ['mbell1975', 3793762490]}
+		U9:  {label: null,                       platform: ['mbell1975', 3793762490]}
 	},
 	'9083101': { // U Zwickauer Damm
 		U7:  {label: ['ingolfbln', 15324013144], platform: ['ingolfbln', 15758852748]},
