@@ -271,7 +271,7 @@ module.exports = {
 		U2:  {label: ['flickr', 'ingolfbln', 8021175922],  platform: ['flickr', 'ingolfbln', 8021163581]}
 	},
 	'9100019': { // U Oranienburger Tor
-		U6:  {label: ['flickr', '142745322@N06', 27516578870],  platform: null}
+		U6:  {label: ['flickr', '142745322@N06', 27516578870],  platform: ['commons', 'U-Bahn_Berlin_Oranienburger_Tor.jpg']}
 	},
 	'9009202': { // U Osloer Str.
 		U8:  {label: ['flickr', 'ingolfbln', 7618273800],  platform: ['flickr', 'ingolfbln', 7618276924]},
