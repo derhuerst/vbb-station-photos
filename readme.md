@@ -1,6 +1,6 @@
 # vbb-station-photos
 
-**Photos of every subway station in Berlin.** Thanks to [*ingolfbln*](https://www.flickr.com/photos/ingolfbln)!
+**Photos of every subway station in Berlin.** Thanks to [*ingolfbln*](https://www.flickr.com/photos/ingolfbln) and all the other people!
 
 [![npm version](https://img.shields.io/npm/v/vbb-station-photos.svg)](https://www.npmjs.com/package/vbb-station-photos)
 [![build status](https://img.shields.io/travis/derhuerst/vbb-station-photos.svg)](https://travis-ci.org/derhuerst/vbb-station-photos)

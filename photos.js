@@ -428,7 +428,7 @@ module.exports = {
 	},
 	'9022101': { // U Sophie-Charlotte-Platz
 		U2:  {
-			label: ['commons', 'Berlin_-_U-Bahnhof_Sophie-Charlotte-Platz_-_Linie_U2_(6945055571).jpg#'],
+			label: ['commons', 'Berlin_-_U-Bahnhof_Sophie-Charlotte-Platz_-_Linie_U2_(6945055571).jpg'],
 			platform: ['flickr', 'ingolfbln', 6945035051]
 		},
 	},

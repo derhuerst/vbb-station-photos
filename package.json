@@ -8,6 +8,7 @@
 	"authors":      ["Jannis R <mail@jannisr.de>", "Julius Tens <mail@julius-tens.de>"],
 	"homepage":     "https://github.com/derhuerst/vbb-station-photos",
 	"repository":   "derhuerst/vbb-station-photos",
+	"issues":       "https://github.com/derhuerst/vbb-station-photos/issues",
 	"license":      "ISC",
 	"engines":      {"node": ">=4"},
 	"dependencies": {
@@ -17,7 +18,7 @@
 		"commons-photo-url": "^0.1"
 	},
 	"devDependencies": {
-		"tape": "^4.5.1",
+		"tape": "^4.6",
 		"tap-min": "^1.1"
 	},
 	"scripts": {
