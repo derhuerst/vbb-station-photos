@@ -201,8 +201,7 @@ module.exports = {
 		U9:  {label: ['flickr', 'ingolfbln', 8380633291],  platform: ['flickr', 'ingolfbln', 8381747376]}
 	},
 	'9086102': { // U Kurt-Schumacher-Platz
-		U6:  {label: ['flickr', 'ingolfbln', 13546270984], platform: ['flickr', 'ingolfbln', 13546281344]},
-		U7:  {label: ['flickr', 'ingolfbln', 24955027776], platform: ['flickr', 'ingolfbln', 24863352592]}
+		U6:  {label: ['flickr', 'ingolfbln', 24955027776], platform: ['flickr', 'ingolfbln', 24863352592]}
 	},
 	'9079201': { // U Leinestr.
 		U8:  {label: ['flickr', 'ingolfbln', 6529442213],  platform: ['flickr', 'ingolfbln', 15041246505]}
