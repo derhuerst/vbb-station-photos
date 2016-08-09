@@ -2,13 +2,25 @@
 
 const queue  = require('queue')
 const path   = require('path')
-const url    = require('flickr-photo-url')
+const flickr = require('flickr-photo-url')
+const commons = require('commons-photo-url')
 const got    = require('got')
 const fs     = require('fs')
 
 const list   = require('./photos')
 
 
+
+const urls = {
+	flickr: (data) => flickr(data[0], data[1]),
+	commons: (data) => Promise.resolve(commons(data[0]))
+}
+const url = (data) => {
+	data = Array.from(data)
+	const method = data.shift()
+	if (method in urls) return urls[method](data)
+	else throw new Error('unknown method ' + method)
+}
 
 const b = path.join(__dirname, '.', 'data')
 const q = queue()
@@ -22,10 +34,9 @@ Object.keys(list).forEach((station) => {
 
 			if (!photos[perspective]) return next(new Error(
 				`Missing ${perspective} photo for ${line} at ${station}`))
-			const [user, photo] = photos[perspective]
 			const file = [station, line, perspective].join('-') + '.jpg'
 
-			url(user, photo, 'z').catch(next)
+			url(photos[perspective]).catch(next)
 			.then((url) => new Promise((yay, nay) => {
 
 				got.stream(url).on('error', nay)
@@ -34,7 +45,7 @@ Object.keys(list).forEach((station) => {
 
 			})).catch(next)
 			.then(() => {
-				console.info(`${user}/${photo} -> ${file} ✓`)
+				console.info(`${photos[perspective].join('/')} -> ${file}`)
 				next()
 			})
 		}))

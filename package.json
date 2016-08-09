@@ -13,7 +13,8 @@
 	"dependencies": {
 		"got": "^6.3",
 		"queue": "^4",
-		"flickr-photo-url": "^0.1"
+		"flickr-photo-url": "^1",
+		"commons-photo-url": "^0.1"
 	},
 	"devDependencies": {
 		"tape": "^4.5.1",
