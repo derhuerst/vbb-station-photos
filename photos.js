@@ -352,7 +352,6 @@ module.exports = {
 		U7:  {label: ['flickr', 'ingolfbln', 15946240285], platform: ['flickr', 'ingolfbln', 15326594443]},
 	},
 	'9175001': { // S+U Wuhletal
-		// todo: missing photo showing name (close-up)
 		U5:  {label: ['flickr', 'ingolfbln', 9497827206],  platform: ['flickr', 'ingolfbln', 9495178261]},
 	},
 	'9056101': { // U Wittenbergplatz
@@ -422,32 +421,43 @@ module.exports = {
 		U2:  {label: ['flickr', 'ingolfbln', 6315302831],  platform: ['flickr', 'ingolfbln', 7804943762]},
 	},
 	'9042101': { // U Spichernstraße
-		// todo: missing photo showing name (close-up, U3)
-		U3:  {label: ['flickr', 'ingolfbln', 7605895578],  platform: ['flickr', 'ingolfbln', 7605884990]},
+		U3:  {
+			label: ['commons', 'U-Bahnhof_Spichernstraße_(U3)_20130727_2.jpg'],
+			platform: ['flickr', 'ingolfbln', 7605884990]
+		},
 		U9:  {label: ['flickr', 'ingolfbln', 7606085308],  platform: ['flickr', 'ingolfbln', 7606062008]},
 	},
 	'9022101': { // U Sophie-Charlotte-Platz
-		U2:  {label: ['flickr', 'ingolfbln', 6945075313],  platform: ['flickr', 'ingolfbln', 6945035051]},
+		U2:  {
+			label: ['commons', 'Berlin_-_U-Bahnhof_Sophie-Charlotte-Platz_-_Linie_U2_(6945055571).jpg#'],
+			platform: ['flickr', 'ingolfbln', 6945035051]
+		},
 	},
 	'9035101': { // U Siemensdamm
 		// todo: missing photo showing name (close-up)
 		U7:  {label: ['flickr', 'ingolfbln', 8448112575],  platform: ['flickr', 'ingolfbln', 8449137556]},
 	},
 	'9110005': { // U Senefelderplatz
-		// todo: missing photo showing name (close-up)
-		U2:  {label: ['flickr', 'ingolfbln', 7804895084],  platform: ['flickr', 'ingolfbln', 7804920404]},
+		U2:  {
+			label: ['commons', 'Senefelderplatz_plaque.jpg'],
+			platform: ['flickr', 'ingolfbln', 7804920404]
+		},
 	},
 	'9100501': { // U Schwartzkopffstraße
 		// todo: missing photo showing name (close-up)
 		U6:  {label: ['flickr', 'ingolfbln', 13366448165], platform: ['flickr', 'ingolfbln', 13366798574]},
 	},
 	'9120009': { // U Samariterstraße
-		// todo: missing photo showing name (close-up)
-		U5:  {label: ['flickr', 'ingolfbln', 6261360397],  platform: ['flickr', 'ingolfbln', 6261366635]},
+		U5:  {
+			label: ['commons', 'Samariterstraße_(15186253620).jpg'],
+			platform: ['flickr', 'ingolfbln', 6261366635]
+		},
 	},
 	'9100017': { // U Schillingstraße
-		// todo: missing photo showing name (close-up)
-		U5:  {label: ['flickr', 'ingolfbln', 6261675995],  platform: ['flickr', 'ingolfbln', 6261633179]},
+		U5:  {
+			label: ['commons', 'Schillingstraße_subway_sign_01.JPG'],
+			platform: ['flickr', 'ingolfbln', 6261633179]
+		},
 	},
 	'9014102': { // U Schlesisches Tor
 		U1:  {label: ['flickr', 'ingolfbln', 6319640129],  platform: ['flickr', 'ingolfbln', 6320226072]},
