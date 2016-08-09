@@ -30,8 +30,8 @@ module.exports = {
 		U7:  {label: ['flickr', 'ingolfbln', 6443862789],  platform: ['flickr', 'ingolfbln', 6443871455]}
 	},
 	'9044201': { // U Berliner Str.
-		U7:  {label: ['flickr', '142745322@N06', 27760600346], platform: null},
-		U9:  {label: ['flickr', '142745322@N06', 27760595616], platform: null}
+		U7:  {label: ['flickr', '142745322@N06', 27760600346], platform: ['commons', 'U-Bahn_Berlin_Berliner_Straße.jpg']},
+		U9:  {label: ['flickr', '142745322@N06', 27760595616], platform: ['commons', 'Berlinerstr-u9-ubahn.jpg']}
 	},
 	'9007110': { // U Bernauer Str.
 		U8:  {label: ['flickr', 'ingolfbln', 6335397247],  platform: ['flickr', 'ingolfbln', 6335405259]}
@@ -68,7 +68,7 @@ module.exports = {
 		U55: {label: ['flickr', 'ingolfbln', 22004585159], platform: ['flickr', 'ingolfbln', 22003394950]}
 	},
 	'9044202': { // S+U Bundesplatz
-		U9: {label: ['flickr', '142745322@N06', 27183844933], platform: null}
+		U9: {label: ['flickr', '142745322@N06', 27183844933], platform: ['commons', 'Bundesplatz_west-ubahn.jpg']}
 	},
 	'9022201': { // U Deutsche Oper
 		U2:  {label: ['flickr', 'ingolfbln', 6420520007],  platform: ['flickr', 'ingolfbln', 6420536747]}
@@ -184,7 +184,7 @@ module.exports = {
 		U2:  {label: ['flickr', 'ingolfbln', 6336269032],  platform: ['flickr', 'ingolfbln', 6336236448]}
 	},
 	'9012102': { // U Kochstr./Checkpoint Charlie
-		U6:  {label: ['flickr', '142745322@N06', 27516587910],  platform: null}
+		U6:  {label: ['flickr', '142745322@N06', 27516587910],  platform: ['commons', 'Kochstr-ubahn.jpg']}
 	},
 	'9041201': { // U Konstanzer Str.
 		U7:  {label: ['flickr', 'ingolfbln', 9096834614],  platform: ['flickr', 'ingolfbln', 9094593099]}
@@ -194,8 +194,7 @@ module.exports = {
 		U8:  {label: ['flickr', 'ingolfbln', 7932310940],  platform: ['flickr', 'ingolfbln', 7932259378]}
 	},
 	'9050201': { // U Krumme Lanke
-		// todo: missing photos showing name & platform
-		U3:  {label: null, platform: ['flickr', 'ingolfbln', 6267533351]}
+		U3:  {label: null, platform: ['commons', 'Krummelanke-ubahn.jpg']}
 	},
 	'9023203': { // U Kurfürstendamm
 		U1:  {label: ['flickr', 'ingolfbln', 8380738819],  platform: ['flickr', 'ingolfbln', 8380734785]},
