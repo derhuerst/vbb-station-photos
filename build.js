@@ -12,8 +12,8 @@ const list   = require('./photos')
 
 
 const urls = {
-	flickr: (data) => flickr(data[0], data[1]),
-	commons: (data) => Promise.resolve(commons(data[0]))
+	flickr: (data) => flickr(data[0], data[1], 'm'),
+	commons: (data) => Promise.resolve(commons(data[0], 500))
 }
 const url = (data) => {
 	data = Array.from(data)

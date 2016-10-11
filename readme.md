@@ -7,6 +7,7 @@
 [![dependency status](https://img.shields.io/david/derhuerst/vbb-station-photos.svg)](https://david-dm.org/derhuerst/vbb-station-photos)
 [![dev dependency status](https://img.shields.io/david/dev/derhuerst/vbb-station-photos.svg)](https://david-dm.org/derhuerst/vbb-station-photos#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-station-photos.svg)
+[![gitter channel](https://badges.gitter.im/derhuerst/vbb-rest.svg)](https://gitter.im/derhuerst/vbb-rest)
 
 
 ## Installing
