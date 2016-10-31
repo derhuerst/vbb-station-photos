@@ -5,7 +5,7 @@ module.exports = {
 	'9100003': { // S+U Alexanderplatz
 		U2:  {label: ['flickr', 'ingolfbln', 6977132297],  platform: ['flickr', 'ingolfbln', 6831050998]},
 		U5:  {label: ['flickr', 'ingolfbln', 6904300029],  platform: ['flickr', 'ingolfbln', 6904572417]},
-		U8:  {label: null, platform: ['flickr', 'ingolfbln', 7624771658]}
+		U8:  {label: ['commons', 'Berlin_-_Bahnhof_Alexanderplatz3.jpg'], platform: ['flickr', 'ingolfbln', 7624771658]}
 	},
 	'9011102': { // U Afrikanische Straße
 		U6:  {label: ['flickr', 'ingolfbln', 24350635584], platform: ['flickr', 'ingolfbln', 15241241614]}
@@ -137,7 +137,8 @@ module.exports = {
 		U7:  {label: ['flickr', 'ingolfbln', 8480566324],  platform: ['flickr', 'ingolfbln', 8480519654]}
 	},
 	'9003201': { // S+U Hauptbahnhof
-		U55: {label: ['flickr', '142745322@N06', 27516604790],  platform: null}
+		// todo: better platform photo
+		U55: {label: ['flickr', '142745322@N06', 27516604790],  platform: ['flickr', 'ingolfbln', '8013595510']}
 	},
 	'9100012': { // U Hausvogteiplatz
 		U2:  {label: ['flickr', 'ingolfbln', 8428213432],  platform: ['flickr', 'ingolfbln', 8427115893]}
