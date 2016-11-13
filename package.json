@@ -22,6 +22,7 @@
 	"scripts": {
 		"build":      "rm data/*.jpg;node build.js",
 		"test":       "tape test.js | tap-min",
-		"prepublish": "npm run build && npm test"
+		"install":    "npm run build",
+		"prepublish": "npm test"
 	}
 }
