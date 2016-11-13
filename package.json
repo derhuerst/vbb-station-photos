@@ -3,7 +3,7 @@
 	"description":  "Photos of every subway station in Berlin.",
 	"version":      "0.1.0",
 	"main":         "index.js",
-	"files":        ["index.js", "photos.js", "build.js", "data/readme.md"],
+	"files":        ["index.js", "photos.js", "data/*"],
 	"keywords":     ["vbb", "stations", "photos", "subway", "ubahn"],
 	"authors":      ["Jannis R <mail@jannisr.de>", "Julius Tens <mail@julius-tens.de>"],
 	"homepage":     "https://github.com/derhuerst/vbb-station-photos",
@@ -11,13 +11,11 @@
 	"issues":       "https://github.com/derhuerst/vbb-station-photos/issues",
 	"license":      "ISC",
 	"engines":      {"node": ">=6"},
-	"dependencies": {
+	"devDependencies": {
 		"got": "^6.5",
 		"queue": "^4",
 		"flickr-photo-url": "^1",
-		"commons-photo-url": "^0.1"
-	},
-	"devDependencies": {
+		"commons-photo-url": "^0.1",
 		"tape": "^4.6.2",
 		"tap-min": "^1.1"
 	},
