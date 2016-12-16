@@ -36,6 +36,9 @@ module.exports = {
 	'9007110': { // U Bernauer Str.
 		U8:  {label: ['flickr', 'ingolfbln', 6335397247],  platform: ['flickr', 'ingolfbln', 6335405259]}
 	},
+	'9171005': {
+		U5:  {label: ['commons', 'Berlin U-Bahn station Biesdorf-Süd 01.jpg'], platform: null}
+	},
 	'9002201': { // U Birkenstr.
 		U9:  {label: ['flickr', 'ingolfbln', 6413815835],  platform: ['flickr', 'ingolfbln', 6413561591]}
 	},
@@ -70,6 +73,9 @@ module.exports = {
 	'9044202': { // S+U Bundesplatz
 		U9: {label: ['flickr', '142745322@N06', 27183844933], platform: ['commons', 'Bundesplatz_west-ubahn.jpg']}
 	},
+	'9175006': {
+		U5:  {label: ['commons', 'Berlin U-Bahn station Cottbusser Platz.jpg'], platform: null}
+	},
 	'9022201': { // U Deutsche Oper
 		U2:  {label: ['flickr', 'ingolfbln', 6420520007],  platform: ['flickr', 'ingolfbln', 6420536747]}
 	},
@@ -78,6 +84,9 @@ module.exports = {
 	},
 	'9054103': { // U Eisenacher Str.
 		U7:  {label: ['flickr', 'ingolfbln', 6385281907],  platform: ['flickr', 'ingolfbln', 6385333159]}
+	},
+	'9171006': {
+		U5:  {label: ['commons', 'Berlin U-Bahn station Elstawerdaer Platz.jpg'], platform: null}
 	},
 	'9023101': { // U Ernst-Reuter-Platz
 		U2:  {label: ['flickr', 'ingolfbln', 7811608786],  platform: ['flickr', 'ingolfbln', 7811597724]}
@@ -156,8 +165,14 @@ module.exports = {
 	'9079221': { // S+U Hermannstr.
 		U8:  {label: ['flickr', 'ingolfbln', 6530852191],  platform: ['flickr', 'ingolfbln', 6530841673]}
 	},
+	'9175007': {
+		U5:  {label: ['commons', 'Berlin U-Bahn station Hellersdorf.jpg'], platform: null}
+	},
 	'9043101': { // U Hohenzollernplatz
 		U3:  {label: ['flickr', 'ingolfbln', 8293135494],  platform: ['flickr', 'ingolfbln', 8292084211]}
+	},
+	'9175010': {
+		U5:  {label: ['commons', 'Berlin U-Bahn station Hönow.jpg'], platform: null}
 	},
 	'9018101': { // U Jakob-Kaiser-Platz
 		U7:  {label: ['flickr', 'ingolfbln', 13547214604], platform: ['flickr', 'ingolfbln', 13547008043]}
@@ -177,6 +192,9 @@ module.exports = {
 	},
 	'9078103': { // U Karl-Marx-Str.
 		U7:  {label: ['flickr', 'ingolfbln', 8428333804],  platform: ['flickr', 'ingolfbln', 8427234401]}
+	},
+	'9175004': {
+		U5:  {label: ['commons', 'Berlin U-Bahn station Kaulsdorf Nord.jpg'], platform: null}
 	},
 	'9054102': { // U Kleistpark
 		U7:  {label: ['flickr', 'ingolfbln', 8011466188],  platform: ['flickr', 'ingolfbln', 8011478612]}
@@ -217,6 +235,9 @@ module.exports = {
 	},
 	'9082201': { // U Lipschitzallee
 		U7:  {label: ['flickr', 'ingolfbln', 15920214956], platform: ['flickr', 'ingolfbln', 15760272957]}
+	},
+	'9175015': { // U Louis-Lewin-Straße
+		U5:  {label: ['commons', 'Berlin U-Bahn station Louis-Lewin-Straße.jpg'], platform: null}
 	},
 	'9160004': { // S+U Lichtenberg
 		U5:  {label: ['flickr', 'ingolfbln', 6348818924],  platform: ['flickr', 'ingolfbln', 6348834488]}
@@ -351,7 +372,7 @@ module.exports = {
 		U7:  {label: ['flickr', 'ingolfbln', 15946240285], platform: ['flickr', 'ingolfbln', 15326594443]},
 	},
 	'9175001': { // S+U Wuhletal
-		U5:  {label: ['flickr', 'ingolfbln', 9497827206],  platform: ['flickr', 'ingolfbln', 9495178261]},
+		U5:  {label: ['commons', 'Berlin U-Bahn station Wuhletal.jpg'],  platform: ['flickr', 'ingolfbln', 9495178261]},
 	},
 	'9056101': { // U Wittenbergplatz
 		U1:  {label: ['flickr', 'ingolfbln', 7170316429],  platform: ['flickr', 'ingolfbln', 8291717701]},
