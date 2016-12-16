@@ -17,11 +17,13 @@
 		"flickr-photo-url": "^1",
 		"commons-photo-url": "^0.1",
 		"tape": "^4.6.2",
-		"tap-min": "^1.1"
+		"tap-min": "^1.1",
+		"imageoptim-cli": "^1.14.8"
 	},
 	"scripts": {
 		"build":      "rm data/*.jpg;node build.js",
 		"test":       "tape test.js | tap-min",
+		"optimize":   "imageOptim -d ./data -q",
 		"install":    "npm run build",
 		"prepublish": "npm test"
 	}

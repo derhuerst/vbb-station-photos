@@ -39,7 +39,10 @@ Object.keys(list).forEach((station) => {
 			url(photos[perspective]).catch(next)
 			.then((url) => new Promise((yay, nay) => {
 
-				got.stream(url).on('error', nay)
+				got.stream(url).on('error', (err) => {
+					if (err.statusCode === 404) next(new Error(`404 at ${station}`))
+					else next(err)
+				})
 				.pipe(fs.createWriteStream(path.join(b, file)))
 				.on('error', nay).on('finish', () => yay())
 
