@@ -1,7 +1,7 @@
 {
 	"name":         "vbb-station-photos",
 	"description":  "Photos of every subway station in Berlin.",
-	"version":      "0.1.0",
+	"version":      "1.0.0",
 	"main":         "index.js",
 	"files":        ["index.js", "photos.js", "data/*"],
 	"keywords":     ["vbb", "stations", "photos", "subway", "ubahn"],
@@ -17,7 +17,7 @@
 		"flickr-photo-url": "^1",
 		"commons-photo-url": "^0.1",
 		"tape": "^4.6.2",
-		"tap-min": "^1.1",
+		"tap-min": "^1.2.0",
 		"vbb-stations": "^3.0.1",
 		"imageoptim-cli": "^1.14.8"
 	},
