@@ -1,7 +1,7 @@
 {
 	"name":         "vbb-station-photos",
 	"description":  "Photos of every subway station in Berlin.",
-	"version":      "1.1.0",
+	"version":      "1.1.1",
 	"main":         "index.js",
 	"files":        ["index.js", "photos.js", "data/*"],
 	"keywords":     ["vbb", "stations", "photos", "subway", "ubahn"],
@@ -25,7 +25,6 @@
 		"build":      "rm data/*.jpg;node build.js",
 		"test":       "tape test.js | tap-min",
 		"optimize":   "imageOptim -d ./data -q",
-		"install":    "npm run build",
 		"prepublish": "npm test"
 	}
 }
