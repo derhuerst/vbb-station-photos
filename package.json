@@ -25,6 +25,6 @@
 		"build":      "rm data/*.jpg;node build.js",
 		"test":       "tape test.js | tap-min",
 		"optimize":   "imageOptim -d ./data -q",
-		"prepublish": "npm test"
+		"prepublish": "npm run build && npm test"
 	}
 }
