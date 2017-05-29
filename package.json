@@ -12,7 +12,7 @@
 	"license":      "ISC",
 	"engines":      {"node": ">=6"},
 	"devDependencies": {
-		"got": "^6.5",
+		"got": "^7.0.0",
 		"queue": "^4",
 		"flickr-photo-url": "^1",
 		"commons-photo-url": "^0.1",
