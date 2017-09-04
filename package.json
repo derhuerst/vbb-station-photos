@@ -1,30 +1,45 @@
 {
-	"name":         "vbb-station-photos",
-	"description":  "Photos of every subway station in Berlin.",
-	"version":      "1.1.1",
-	"main":         "index.js",
-	"files":        ["index.js", "photos.js", "data/*"],
-	"keywords":     ["vbb", "stations", "photos", "subway", "ubahn"],
-	"authors":      ["Jannis R <mail@jannisr.de>", "Julius Tens <mail@julius-tens.de>"],
-	"homepage":     "https://github.com/derhuerst/vbb-station-photos",
-	"repository":   "derhuerst/vbb-station-photos",
-	"issues":       "https://github.com/derhuerst/vbb-station-photos/issues",
-	"license":      "ISC",
-	"engines":      {"node": ">=6"},
+	"name": "vbb-station-photos",
+	"description": "Photos of every subway station in Berlin.",
+	"version": "1.2.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"photos.js",
+		"data/*"
+	],
+	"keywords": [
+		"vbb",
+		"stations",
+		"photos",
+		"subway",
+		"ubahn"
+	],
+	"authors": [
+		"Jannis R <mail@jannisr.de>",
+		"Julius Tens <mail@julius-tens.de>"
+	],
+	"homepage": "https://github.com/derhuerst/vbb-station-photos",
+	"repository": "derhuerst/vbb-station-photos",
+	"issues": "https://github.com/derhuerst/vbb-station-photos/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
 	"devDependencies": {
-		"got": "^7.0.0",
-		"queue": "^4",
-		"flickr-photo-url": "^1",
 		"commons-photo-url": "^0.1",
+		"flickr-photo-url": "^1",
+		"got": "^7.0.0",
+		"imageoptim-cli": "^1.14.8",
+		"queue": "^4",
 		"tape": "^4.6.2",
 		"tap-min": "^1.2.0",
-		"vbb-stations": "^5.0.0",
-		"imageoptim-cli": "^1.14.8"
+		"vbb-stations": "^5.5.0"
 	},
 	"scripts": {
-		"build":      "rm data/*.jpg;node build.js",
-		"test":       "tape test.js | tap-min",
-		"optimize":   "imageOptim -d ./data -q",
-		"prepublish": "npm run build && npm test"
+		"build": "rm data/*.jpg;node build.js",
+		"test": "tape test.js | tap-min",
+		"optimize": "imageOptim -d ./data -q",
+		"prepublishOnly": "npm run build && npm test"
 	}
 }

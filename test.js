@@ -25,8 +25,11 @@ test('returns null for invalid requests', (t) => {
 })
 
 test('every station id is valid', (t) => {
-	t.plan(Object.keys(photo.list).length)
+	t.plan(Object.keys(photo.list).length * 2)
 
-	for (let id in photo.list)
-		t.ok(stations(id), `${id} doesn't exist`)
+	for (let id in photo.list) {
+		const res = stations(id)
+		t.ok(Array.isArray(res))
+		t.ok(res[0], `${id} doesn't exist`)
+	}
 })
