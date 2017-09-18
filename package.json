@@ -27,13 +27,13 @@
 		"node": ">=6"
 	},
 	"devDependencies": {
-		"commons-photo-url": "^0.1",
+		"commons-photo-url": "^0.1.2",
 		"flickr-photo-url": "^1",
 		"got": "^7.0.0",
 		"imageoptim-cli": "^1.14.8",
 		"queue": "^4",
-		"tape": "^4.6.2",
 		"tap-min": "^1.2.0",
+		"tape": "^4.6.2",
 		"vbb-stations": "^5.5.0"
 	},
 	"scripts": {
