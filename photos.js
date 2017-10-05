@@ -172,7 +172,7 @@ module.exports = {
 		U3:  {label: ['flickr', 'ingolfbln', 8293135494],  platform: ['flickr', 'ingolfbln', 8292084211]}
 	},
 	'900000175010': {
-		U5:  {label: ['commons', 'Berlin U-Bahn station Hönow.jpg'], platform: null}
+		U5:  {label: ['commons', 'Berlin U-Bahn station Hönow.jpg'], platform: ['commons', 'UBahnhf_Hoenow.JPG']}
 	},
 	'900000018101': { // U Jakob-Kaiser-Platz
 		U7:  {label: ['flickr', 'ingolfbln', 13547214604], platform: ['flickr', 'ingolfbln', 13547008043]}
