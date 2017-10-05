@@ -194,7 +194,7 @@ module.exports = {
 		U7:  {label: ['flickr', 'ingolfbln', 8428333804],  platform: ['flickr', 'ingolfbln', 8427234401]}
 	},
 	'900000175004': {
-		U5:  {label: ['commons', 'Berlin U-Bahn station Kaulsdorf Nord.jpg'], platform: null}
+		U5:  {label: ['commons', 'Berlin U-Bahn station Kaulsdorf Nord.jpg'], platform: ['commons', 'Ubahnhf-Kaulsdorf-nord.JPG']}
 	},
 	'900000054102': { // U Kleistpark
 		U7:  {label: ['flickr', 'ingolfbln', 8011466188],  platform: ['flickr', 'ingolfbln', 8011478612]}
