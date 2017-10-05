@@ -85,7 +85,7 @@ module.exports = {
 	'900000054103': { // U Eisenacher Str.
 		U7:  {label: ['flickr', 'ingolfbln', 6385281907],  platform: ['flickr', 'ingolfbln', 6385333159]}
 	},
-	'900000171006': { // U Elstawerdaer Platz
+	'900000171006': { // U Elsterwerdaer Platz
 		U5:  {label: ['commons', 'Berlin U-Bahn station Elstawerdaer Platz.jpg'], platform: ['commons', '2005-07-18_ubf_elsterwerdaer_platz_bahnsteig.jpg']}
 	},
 	'900000023101': { // U Ernst-Reuter-Platz
