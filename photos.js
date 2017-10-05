@@ -166,7 +166,7 @@ module.exports = {
 		U8:  {label: ['flickr', 'ingolfbln', 6530852191],  platform: ['flickr', 'ingolfbln', 6530841673]}
 	},
 	'900000175007': {
-		U5:  {label: ['commons', 'Berlin U-Bahn station Hellersdorf.jpg'], platform: null}
+		U5:  {label: ['commons', 'Berlin U-Bahn station Hellersdorf.jpg'], platform: ['commons', 'Hellersdorf-ubahn.jpg']}
 	},
 	'900000043101': { // U Hohenzollernplatz
 		U3:  {label: ['flickr', 'ingolfbln', 8293135494],  platform: ['flickr', 'ingolfbln', 8292084211]}
