@@ -74,7 +74,7 @@ module.exports = {
 		U9: {label: ['flickr', '142745322@N06', 27183844933], platform: ['commons', 'Bundesplatz_west-ubahn.jpg']}
 	},
 	'900000175006': {
-		U5:  {label: ['commons', 'Berlin U-Bahn station Cottbusser Platz.jpg'], platform: null}
+		U5:  {label: ['commons', 'Berlin U-Bahn station Cottbusser Platz.jpg'], platform: ['commons', 'U-Bahnhof_Cottbusser_Platz.jpg']}
 	},
 	'900000022201': { // U Deutsche Oper
 		U2:  {label: ['flickr', 'ingolfbln', 6420520007],  platform: ['flickr', 'ingolfbln', 6420536747]}
