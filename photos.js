@@ -816,9 +816,10 @@ module.exports = {
 	},
 	'900000054101': { // U Rathaus Schöneberg
 		U4:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 7184233248],
 			platform: ['flickr', 'ingolfbln', 7184248666],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7184200978]
 		}
 	},
 	'900000029302': { // S+U Rathaus Spandau
