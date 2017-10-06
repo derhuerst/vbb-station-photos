@@ -1174,13 +1174,13 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'pasa', 5864038454],
 			platform: ['flickr', 'galio', 4610552275],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7183961476]
 		},
 		// todo: glynlowe/23075396060 ?
 		U9:  {
 			label: null,
 			platform: ['flickr', 'mbell1975', 3793762490],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7183961476]
 		}
 	},
 	'900000083101': { // U Zwickauer Damm
