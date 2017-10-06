@@ -155,7 +155,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 15758843510],
 			platform: ['flickr', 'ingolfbln', 15758710458],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15758838800]
 		}
 	},
 	'900000056104': { // U Bülowstr.
