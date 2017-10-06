@@ -1110,7 +1110,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 13366448165],
 			platform: ['flickr', 'ingolfbln', 13366798574],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 13366397835]
 		},
 	},
 	'900000120009': { // U Samariterstraße
