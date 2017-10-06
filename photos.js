@@ -1082,16 +1082,16 @@ module.exports = {
 		},
 	},
 	'900000042101': { // U Spichernstraße
+		// todo: better entrance photos
 		U3:  {
-
 			label: ['commons', 'U-Bahnhof_Spichernstraße_(U3)_20130727_2.jpg'],
 			platform: ['flickr', 'ingolfbln', 7605884990],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7605937926]
 		},
 		U9:  {
 			label: ['flickr', 'ingolfbln', 7606085308],
 			platform: ['flickr', 'ingolfbln', 7606062008],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7605937926]
 		},
 	},
 	'900000022101': { // U Sophie-Charlotte-Platz
