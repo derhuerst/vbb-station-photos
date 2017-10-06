@@ -257,9 +257,10 @@ module.exports = {
 	},
 	'900000161512': { // U Friedrichsfelde
 		U5:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 8444925853],
 			platform: ['flickr', 'ingolfbln', 8444973707],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8444950453]
 		}
 	},
 	'900000100001': { // S+U Friedrichstr.
