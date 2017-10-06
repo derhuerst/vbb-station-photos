@@ -450,7 +450,7 @@ module.exports = {
 		U6:  {
 			label: null,
 			platform: ['flickr', 'ingolfbln', 15817428556],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15655902810]
 		}
 	},
 	'900000096458': { // S+U Karl-Bonhoeffer-Nervenklinik
