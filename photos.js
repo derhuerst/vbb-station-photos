@@ -987,7 +987,7 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 7617740880],
 			platform: ['flickr', 'ingolfbln', 7617701868],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7617832534]
 		},
 	},
 	'900000130011': { // U Vinetastraße
