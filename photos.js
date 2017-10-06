@@ -1013,7 +1013,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', 'ingolfbln', 9487837043],
 			platform: ['flickr', 'ingolfbln', 9487950731],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 9487875321]
 		},
 	},
 	'900000161002': { // U Tierpark
