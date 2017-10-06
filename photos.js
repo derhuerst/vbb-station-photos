@@ -769,9 +769,10 @@ module.exports = {
 	},
 	'900000080401': { // U Parchimer Allee
 		U7:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 7986960720],
 			platform: ['flickr', 'ingolfbln', 7986959304],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7986920485]
 		}
 	},
 	'900000034101': { // U Paulsternstr.
