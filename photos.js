@@ -876,7 +876,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 15759633679],
 			platform: ['flickr', 'ingolfbln', 15759612639],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15759622899]
 		}
 	},
 	'900000033101': { // U Zitadelle
