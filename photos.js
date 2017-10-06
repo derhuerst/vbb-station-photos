@@ -51,7 +51,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', 'ingolfbln', 7174331773],
 			platform: ['flickr', 'ingolfbln', 7359570360],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7359603268]
 		}
 	},
 	'900000009101': { // U Amrumer Str.
