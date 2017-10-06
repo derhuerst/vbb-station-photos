@@ -1007,7 +1007,7 @@ module.exports = {
 		U4:  {
 			label: ['flickr', 'ingolfbln', 7145955841],
 			platform: ['flickr', 'ingolfbln', 7145950145],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6999969374]
 		},
 	},
 	'900000069271': { // U Ullsteinstraße
