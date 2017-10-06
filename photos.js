@@ -803,7 +803,7 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 7545634198],
 			platform: ['flickr', 'ingolfbln', 7545616168],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7545479024]
 		}
 	},
 	'900000096410': { // U Rathaus Reinickendorf
