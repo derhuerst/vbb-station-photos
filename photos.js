@@ -384,9 +384,10 @@ module.exports = {
 	},
 	'900000100008': { // U Heinrich-Heine-Str.
 		U8:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 7592578554],
 			platform: ['flickr', 'ingolfbln', 7592604840],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7592682284]
 		}
 	},
 	'900000078101': { // U Hermannplatz
