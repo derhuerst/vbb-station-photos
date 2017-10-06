@@ -237,7 +237,7 @@ module.exports = {
 		U5:  {
 			label: ['flickr', 'ingolfbln', 13607255353],
 			platform: ['flickr', 'ingolfbln', 13607600174],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 13607246325]
 		}
 	},
 	'900000120008': { // U Frankfurter Tor
