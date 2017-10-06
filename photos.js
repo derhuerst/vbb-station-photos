@@ -1115,7 +1115,7 @@ module.exports = {
 		U2:  {
 			label: ['commons', 'Senefelderplatz_plaque.jpg'],
 			platform: ['flickr', 'ingolfbln', 7804920404],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7804838266]
 		},
 	},
 	'900000100501': { // U Schwartzkopffstraße
