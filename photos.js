@@ -679,7 +679,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 15021410257],
 			platform: ['flickr', 'ingolfbln', 15184959836],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15204938161]
 		}
 	},
 	'900000056102': { // U Nollendorfplatz
