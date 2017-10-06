@@ -419,7 +419,7 @@ module.exports = {
 		U3:  {
 			label: ['flickr', 'ingolfbln', 8293135494],
 			platform: ['flickr', 'ingolfbln', 8292084211],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8292048983]
 		}
 	},
 	'900000175010': {
