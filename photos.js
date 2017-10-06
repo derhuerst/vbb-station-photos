@@ -242,9 +242,10 @@ module.exports = {
 	},
 	'900000120008': { // U Frankfurter Tor
 		U5:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 13607728993],
 			platform: ['flickr', 'ingolfbln', 13607733313],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 13608053194]
 		}
 	},
 	'900000100027': { // U Französische Str.
