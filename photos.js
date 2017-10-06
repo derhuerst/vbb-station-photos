@@ -1040,9 +1040,10 @@ module.exports = {
 	},
 	'900000068201': { // S+U Tempelhof
 		U6:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6286996768],
 			platform: ['flickr', 'ingolfbln', 6286974820],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7965908534]
 		},
 	},
 	'900000016202': { // U Südstern
