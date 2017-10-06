@@ -567,12 +567,12 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 7618720358],
 			platform: ['flickr', 'ingolfbln', 7618757186],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7618845284]
 		},
 		U9:  {
 			label: ['flickr', 'ingolfbln', 7618811770],
 			platform: ['flickr', 'ingolfbln', 7618836372],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7618845284]
 		}
 	},
 	'900000082201': { // U Lipschitzallee
