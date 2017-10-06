@@ -673,7 +673,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', 'ingolfbln', 7811511250],
 			platform: ['flickr', 'ingolfbln', 7811496388],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7811405088]
 		}
 	},
 	'900000078201': { // S+U Neukölln
