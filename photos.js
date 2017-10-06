@@ -462,7 +462,7 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 7807059838],
 			platform: ['flickr', 'ingolfbln', 7807052574],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7807125810]
 		}
 	},
 	'900000078103': { // U Karl-Marx-Str.
