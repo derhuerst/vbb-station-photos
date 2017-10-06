@@ -467,9 +467,10 @@ module.exports = {
 	},
 	'900000078103': { // U Karl-Marx-Str.
 		U7:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 8428333804],
 			platform: ['flickr', 'ingolfbln', 8427234401],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8428301850]
 		}
 	},
 	'900000175004': {
