@@ -678,7 +678,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 8427326567],
 			platform: ['flickr', 'ingolfbln', 8428426774],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8427348789]
 		}
 	},
 	'900000026101': { // U Neu-Westend
