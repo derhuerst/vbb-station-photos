@@ -27,7 +27,7 @@ Returns the file path as a string.
 
 ```js
 const photo = require('vbb-station-photos')
-console.log(photo(9007103, 'U8', 'label'))
+console.log(photo(9007103, 'U8', 'label')) // 'label', 'platform', 'entrance'
 // /Users/j/web/vbb-station-photos/data/9007103-U8-label.jpg
 ```
 
