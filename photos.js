@@ -884,7 +884,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 8480657860],
 			platform: ['flickr', 'ingolfbln', 8480660458],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8479550947]
 		},
 	},
 	'900000057103': { // S+U Yorckstraße
