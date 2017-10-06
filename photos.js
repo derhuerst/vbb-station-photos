@@ -905,7 +905,7 @@ module.exports = {
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Wuhletal.jpg'],
 			platform: ['flickr', 'ingolfbln', 9495178261],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 9497859578]
 		},
 	},
 	'900000056101': { // U Wittenbergplatz
