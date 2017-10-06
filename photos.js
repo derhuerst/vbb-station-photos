@@ -571,7 +571,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 15920214956],
 			platform: ['flickr', 'ingolfbln', 15760272957],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15758594928]
 		}
 	},
 	'900000175015': { // U Louis-Lewin-Straße
