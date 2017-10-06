@@ -219,7 +219,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 7811608786],
 			platform: ['flickr', 'ingolfbln', 7811597724],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7811577562]
 		}
 	},
 	'900000041101': { // U Fehrbelliner Platz
