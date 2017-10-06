@@ -934,7 +934,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 8384130657],
 			platform: ['flickr', 'ingolfbln', 8385217432],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8384141965]
 		},
 	},
 	'900000001201': { // S+U Westhafen
