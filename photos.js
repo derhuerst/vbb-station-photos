@@ -162,7 +162,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 8991197746],
 			platform: ['flickr', 'ingolfbln', 9510232053],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 9510210481]
 		}
 	},
 	'900000003254': { // U Bundestag
