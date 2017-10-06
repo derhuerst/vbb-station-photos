@@ -835,7 +835,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 13366126825],
 			platform: ['flickr', 'ingolfbln', 13366625454],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 13366380393]
 		}
 	},
 	'900000022202': { // U Richard-Wagner-Platz
