@@ -761,7 +761,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 8442059715],
 			platform: ['flickr', 'ingolfbln', 8443175236],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8443111484]
 		}
 	},
 	'900000080401': { // U Parchimer Allee
