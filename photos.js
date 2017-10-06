@@ -751,7 +751,7 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 7618016404],
 			platform: ['flickr', 'ingolfbln', 7618030952],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7618136362]
 		}
 	},
 	'900000085104': { // U Paracelsus-Bad
