@@ -372,7 +372,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 8428213432],
 			platform: ['flickr', 'ingolfbln', 8427115893],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8428188718]
 		}
 	},
 	'900000045102': { // S+U Heidelberger Platz
