@@ -43,7 +43,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 8480776682],
 			platform: ['flickr', 'ingolfbln', 8479688177],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8479696353]
 		}
 	},
 	'900000089301': { // U Alt-Tegel
