@@ -838,7 +838,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 15677835877],
 			platform: ['flickr', 'ingolfbln', 13547180563],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7173967309]
 		}
 	},
 	'900000008102': { // U Reinickendorfer Str.
