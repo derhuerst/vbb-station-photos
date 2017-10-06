@@ -864,9 +864,10 @@ module.exports = {
 	},
 	'900000100016': { // U Rosa-Luxemburg-Platz
 		U2:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 7805059614],
 			platform: ['flickr', 'ingolfbln', 7805085780],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7805016650]
 		}
 	},
 	'900000100023': { // U Rosenthaler Platz
