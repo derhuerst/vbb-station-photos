@@ -557,10 +557,11 @@ module.exports = {
 	},
 	'900000086160': { // U Lindauer Allee
 		// todo: missing photo showing the name
+		// todo: better entrance photo
 		U8:  {
 			label: null,
 			platform: ['flickr', 'ingolfbln', 7806998528],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7806929326]
 		}
 	},
 	'900000009102': { // U Leopoldplatz
