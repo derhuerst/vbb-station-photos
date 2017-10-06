@@ -273,7 +273,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', 'ingolfbln', 8445906948],
 			platform: ['flickr', 'ingolfbln', 8445830122],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8444778417]
 		}
 	},
 	'900000007102': { // S+U Gesundbrunnen
