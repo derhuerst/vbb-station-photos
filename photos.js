@@ -732,12 +732,12 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 7618273800],
 			platform: ['flickr', 'ingolfbln', 7618276924],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7618370998]
 		},
 		U9:  {
 			label: ['flickr', 'ingolfbln', 7618273800],
 			platform: ['flickr', 'ingolfbln', 7618304156],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7618370998]
 		}
 	},
 	'900000130002': { // S+U Pankow
