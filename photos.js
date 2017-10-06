@@ -510,15 +510,16 @@ module.exports = {
 		}
 	},
 	'900000013102': { // U Kottbusser Tor
+		// todo: better entrance photos
 		U1:  {
 			label: ['flickr', 'ingolfbln', 7932564208],
 			platform: ['flickr', 'ingolfbln', 7932567552],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7932443538]
 		},
 		U8:  {
 			label: ['flickr', 'ingolfbln', 7932310940],
 			platform: ['flickr', 'ingolfbln', 7932259378],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7932443538]
 		}
 	},
 	'900000050201': { // U Krumme Lanke
