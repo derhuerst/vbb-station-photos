@@ -595,7 +595,7 @@ module.exports = {
 		U5:  {
 			label: ['flickr', 'ingolfbln', 8445104431],
 			platform: ['flickr', 'ingolfbln', 8446262252],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8445154939]
 		}
 	},
 	'900000100014': { // U Märkisches Museum
