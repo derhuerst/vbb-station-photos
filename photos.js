@@ -1011,7 +1011,7 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 8389622307],
 			platform: ['flickr', 'ingolfbln', 8390712494],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8390720164]
 		},
 	},
 	'900000003104': { // U Turmstraße
