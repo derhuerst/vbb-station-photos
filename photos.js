@@ -351,9 +351,10 @@ module.exports = {
 	},
 	'900000034102': { // U Haselhorst
 		U7:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 8480566324],
 			platform: ['flickr', 'ingolfbln', 8480519654],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8480535288]
 		}
 	},
 	'900000003201': { // S+U Hauptbahnhof
