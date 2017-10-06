@@ -325,9 +325,10 @@ module.exports = {
 	},
 	'900000018102': { // U Halemweg
 		U7:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 8447783145],
 			platform: ['flickr', 'ingolfbln', 8448906202],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8448883602]
 		}
 	},
 	'900000012103': { // U Hallesches Tor
