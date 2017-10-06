@@ -1004,7 +1004,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 8430268841],
 			platform: ['flickr', 'ingolfbln', 8431336368],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8431314286]
 		},
 	},
 	'900000023301': { // U Uhlandstraße
