@@ -337,12 +337,12 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 8194057063],
 			platform: ['flickr', 'ingolfbln', 8194069607],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8195191120]
 		},
 		U6:  {
 			label: ['flickr', 'ingolfbln', 8194012643],
 			platform: ['flickr', 'ingolfbln', 8194021459],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8194036617]
 		}
 	},
 	'900000003101': { // U Hansaplatz
