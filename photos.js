@@ -315,7 +315,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 8389921395],
 			platform: ['flickr', 'ingolfbln', 8389896257],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8389912401]
 		}
 	},
 	'900000043201': { // U Güntzelstr.
