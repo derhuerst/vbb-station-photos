@@ -530,12 +530,12 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 8380738819],
 			platform: ['flickr', 'ingolfbln', 8380734785],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8380719173]
 		},
 		U9:  {
 			label: ['flickr', 'ingolfbln', 8380633291],
 			platform: ['flickr', 'ingolfbln', 8381747376],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8380719173]
 		}
 	},
 	'900000086102': { // U Kurt-Schumacher-Platz
