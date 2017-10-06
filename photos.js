@@ -1156,7 +1156,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 7592906382],
 			platform: ['flickr', 'ingolfbln', 7593090948],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7592785372]
 		},
 	},
 	'900000016201': { // U Schönleinstraße
