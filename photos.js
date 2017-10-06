@@ -482,9 +482,10 @@ module.exports = {
 	},
 	'900000054102': { // U Kleistpark
 		U7:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 8011466188],
 			platform: ['flickr', 'ingolfbln', 8011478612],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8011430580]
 		}
 	},
 	'900000100015': { // U Klosterstr.
