@@ -629,7 +629,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 7184540992],
 			platform: ['flickr', 'ingolfbln', 7184408120],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7184516706]
 		}
 	},
 	'900000019204': { // U Mierendorffplatz
