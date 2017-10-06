@@ -894,11 +894,10 @@ module.exports = {
 		},
 	},
 	'900000083102': { // U Wutzkyallee
-		// todo: missing photos showing name & platform
 		U7:  {
 			label: ['flickr', 'ingolfbln', 15946240285],
 			platform: ['flickr', 'ingolfbln', 15326594443],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15946240285]
 		},
 	},
 	'900000175001': { // S+U Wuhletal
