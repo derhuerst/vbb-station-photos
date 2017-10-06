@@ -950,7 +950,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 13366726265],
 			platform: ['flickr', 'ingolfbln', 13366747765],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 13366849433]
 		},
 	},
 	'900000120025': { // U Weberwiese
