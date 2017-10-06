@@ -22,7 +22,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 24350635584],
 			platform: ['flickr', 'ingolfbln', 15241241614],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7359311910]
 		}
 	},
 	'900000023302': { // U Adenauerplatz
