@@ -639,12 +639,12 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 7939725316],
 			platform: ['flickr', 'ingolfbln', 7939796296],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7939654880]
 		},
 		U7:  {
 			label: ['flickr', 'ingolfbln', 7939573278],
 			platform: ['flickr', 'ingolfbln', 7939560024],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7939473964]
 		}
 	},
 	'900000100010': { // U Mohrenstr.
