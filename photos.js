@@ -1097,7 +1097,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 8448112575],
 			platform: ['flickr', 'ingolfbln', 8449137556],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8448081863]
 		},
 	},
 	'900000110005': { // U Senefelderplatz
