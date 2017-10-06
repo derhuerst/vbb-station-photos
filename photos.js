@@ -924,17 +924,17 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 7170316429],
 			platform: ['flickr', 'ingolfbln', 8291717701],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7355321230]
 		},
 		U2:  {
 			label: ['flickr', 'ingolfbln', 7170316429],
 			platform: ['flickr', 'ingolfbln', 8291717701],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7355321230]
 		},
 		U3:  {
 			label: ['flickr', 'ingolfbln', 7170316429],
 			platform: ['flickr', 'ingolfbln', 8291717701],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7355321230]
 		},
 	},
 	'900000070101': { // U Westphalweg
