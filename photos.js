@@ -870,7 +870,7 @@ module.exports = {
 		U3:  {
 			label: ['flickr', 'ingolfbln', 8990573305],
 			platform: ['flickr', 'ingolfbln', 8990554073],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8990634021]
 		}
 	},
 	'900000083201': { // U Rudow
