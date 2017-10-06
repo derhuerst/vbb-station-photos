@@ -990,7 +990,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 8431271806],
 			platform: ['flickr', 'ingolfbln', 8430182513],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8431209650]
 		},
 	},
 	'900000055101': { // U Viktoria-Luise-Platz
