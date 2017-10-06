@@ -659,7 +659,7 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 7798164546],
 			platform: ['flickr', 'ingolfbln', 7798170722],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7798301908]
 		}
 	},
 	'900000100009': { // U Naturkundemuseum
