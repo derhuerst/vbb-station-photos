@@ -1026,7 +1026,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 15021509277],
 			platform: ['flickr', 'ingolfbln', 15021516327],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15021291699]
 		},
 	},
 	'900000068201': { // S+U Tempelhof
