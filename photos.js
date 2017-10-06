@@ -943,9 +943,10 @@ module.exports = {
 	},
 	'900000001201': { // S+U Westhafen
 		U9:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 7606140134],
 			platform: ['flickr', 'ingolfbln', 7606128040],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7606166790]
 		},
 	},
 	'900000100051': { // U Weinmeisterstraße
