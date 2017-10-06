@@ -848,9 +848,10 @@ module.exports = {
 	},
 	'900000036101': { // U Rohrdamm
 		U7:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 8448172473],
 			platform: ['flickr', 'ingolfbln', 8448175931],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8449229196]
 		}
 	},
 	'900000100016': { // U Rosa-Luxemburg-Platz
