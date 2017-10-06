@@ -34,9 +34,10 @@ module.exports = {
 	},
 	'900000070301': { // U Alt-Mariendorf
 		U6:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 8442745166],
 			platform: ['flickr', 'ingolfbln', 8442753190],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8442828284]
 		}
 	},
 	'900000029301': { // U Altstadt Spandau
