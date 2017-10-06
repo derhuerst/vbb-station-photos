@@ -773,7 +773,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 8480390556],
 			platform: ['flickr', 'ingolfbln', 8479277023],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8480373404]
 		}
 	},
 	'900000017102': { // U Platz der Luftbrücke
