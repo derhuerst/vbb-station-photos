@@ -429,7 +429,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 13547214604],
 			platform: ['flickr', 'ingolfbln', 13547008043],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 13546801743]
 		}
 	},
 	'900000100004': { // S+U Jannowitzbrücke
