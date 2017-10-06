@@ -651,7 +651,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 7932699334],
 			platform: ['flickr', 'ingolfbln', 7932693798],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7932613738]
 		}
 	},
 	'900000013101': { // U Moritzplatz
