@@ -322,7 +322,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', '142745322@N06', 27183838403],
 			platform: ['flickr', 'ingolfbln', 7811698154],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7811708494]
 		}
 	},
 	'900000018102': { // U Halemweg
