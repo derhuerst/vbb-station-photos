@@ -500,7 +500,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 9096834614],
 			platform: ['flickr', 'ingolfbln', 9094593099],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 9096772112]
 		}
 	},
 	'900000013102': { // U Kottbusser Tor
