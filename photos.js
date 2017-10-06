@@ -286,15 +286,16 @@ module.exports = {
 		}
 	},
 	'900000017103': { // U Gleisdreieck
+		// todo: better entrance photos
 		U1:  {
 			label: ['flickr', 'ingolfbln', 7931788740],
 			platform: ['flickr', 'ingolfbln', 7931841660],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7184690430]
 		},
 		U2:  {
 			label: ['flickr', 'ingolfbln', 7184779634],
 			platform: ['flickr', 'ingolfbln', 7184839708],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7184690430]
 		}
 	},
 	'900000016101': { // U Gneisenaustr.
