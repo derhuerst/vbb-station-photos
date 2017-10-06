@@ -975,7 +975,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', 'ingolfbln', 8441812101],
 			platform: ['flickr', 'ingolfbln', 8442900284],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8442950484]
 		},
 	},
 	'900000007103': { // U Voltastraße
