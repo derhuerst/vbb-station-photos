@@ -538,7 +538,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 24955027776],
 			platform: ['flickr', 'ingolfbln', 24863352592],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 13546235063]
 		}
 	},
 	'900000079201': { // U Leinestr.
