@@ -181,7 +181,7 @@ module.exports = {
 		U9: {
 			label: ['flickr', '142745322@N06', 27183844933],
 			platform: ['commons', 'Bundesplatz_west-ubahn.jpg'],
-			entrance: null
+			entrance: ['commons', 'Berlin_wilmersdorf_U_Bahn_Bundesplatz_19.04.2013_16-32-52.JPG']
 		}
 	},
 	'900000175006': { // U Cottbusser Platz
