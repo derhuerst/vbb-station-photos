@@ -1093,9 +1093,10 @@ module.exports = {
 	},
 	'900000100013': { // U Spittelmarkt
 		U2:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6315302831],
 			platform: ['flickr', 'ingolfbln', 7804943762],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6314128143]
 		},
 	},
 	'900000042101': { // U Spichernstraße
