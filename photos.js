@@ -1159,7 +1159,7 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 6319640129],
 			platform: ['flickr', 'ingolfbln', 6320226072],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7806902396]
 		},
 	},
 	'900000062203': { // U Schloßstraße
