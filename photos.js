@@ -1092,12 +1092,12 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 6478223615],
 			platform: ['flickr', 'ingolfbln', 6478372559],
-			entrance: null
+			entrance: ['commons', 'U-Bahn_-_Stadtmitte_Eingang_-_geo.hlipp.de_-_9542.jpg']
 		},
 		U6:  {
 			label: ['flickr', 'ingolfbln', 6478660389],
 			platform: ['flickr', 'ingolfbln', 6478706775],
-			entrance: null
+			entrance: ['commons', 'U-Bahn_-_Stadtmitte_Eingang_-_geo.hlipp.de_-_9542.jpg']
 		},
 	},
 	'900000100013': { // U Spittelmarkt
