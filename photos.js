@@ -93,7 +93,7 @@ module.exports = {
 			entrance: ['flickr', 'ingolfbln', 6335432981]
 		}
 	},
-	'900000171005': {
+	'900000171005': { // U Biesdorf-Süd
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Biesdorf-Süd 01.jpg'],
 			platform: null,
