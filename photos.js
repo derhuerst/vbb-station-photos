@@ -701,22 +701,22 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 6933099425],
 			platform: ['flickr', 'ingolfbln', 6786986386],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 11279316253]
 		},
 		U2:  {
 			label: null,
 			platform: ['flickr', 'ingolfbln', 7184373680],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 11279316253]
 		},
 		U3:  {
 			label: ['flickr', 'ingolfbln', 6933099425],
 			platform: ['flickr', 'ingolfbln', 6786986386],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 11279316253]
 		},
 		U4:  {
 			label: ['flickr', 'ingolfbln', 6933099425],
 			platform: ['flickr', 'ingolfbln', 6786962078],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 11279316253]
 		}
 	},
 	'900000025203': { // U Olympia-Stadion
