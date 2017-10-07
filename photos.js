@@ -504,7 +504,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 6336269032],
 			platform: ['flickr', 'ingolfbln', 6336236448],
-			entrance: null
+			entrance: ['commons', 'U-Bahn_Berlin_Klosterstrasse_Eingang.JPG']
 		}
 	},
 	'900000012102': { // U Kochstr./Checkpoint Charlie
