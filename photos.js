@@ -727,9 +727,10 @@ module.exports = {
 	},
 	'900000025203': { // U Olympia-Stadion
 		U2:  {
+			// todo: better entrance photo (maybe)
 			label: ['flickr', 'ingolfbln', 8021175922],
 			platform: ['flickr', 'ingolfbln', 8021163581],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8021150819]
 		}
 	},
 	'900000100019': { // U Oranienburger Tor
