@@ -842,7 +842,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6473732171],
 			platform: ['flickr', 'ingolfbln', 6473287207],
-			entrance: null
+			entrance: ['commons', 'U-Bahn_Berlin_Rathaus_Spandau_Eingang.jpg']
 		}
 	},
 	'900000062202': { // S+U Rathaus Steglitz
