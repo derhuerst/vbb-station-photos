@@ -982,9 +982,10 @@ module.exports = {
 	},
 	'900000120025': { // U Weberwiese
 		U5:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6261935322],
 			platform: ['flickr', 'ingolfbln', 6261917226],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7992731703]
 		},
 	},
 	'900000120004': { // S+U Warschauer Straße
