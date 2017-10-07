@@ -65,12 +65,12 @@ module.exports = {
 		U4:  {
 			label: ['flickr', 'ingolfbln', 6444018965],
 			platform: ['flickr', 'ingolfbln', 6444065621],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7184296100]
 		},
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6443862789],
 			platform: ['flickr', 'ingolfbln', 6443871455],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7184296100]
 		}
 	},
 	'900000044201': { // U Berliner Str.
