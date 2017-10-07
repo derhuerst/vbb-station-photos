@@ -792,7 +792,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 6900004844],
 			platform: ['flickr', 'ingolfbln', 6900001996],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7046024685]
 		}
 	},
 	'900000100020': { // S+U Potsdamer Platz
