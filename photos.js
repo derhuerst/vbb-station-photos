@@ -184,11 +184,11 @@ module.exports = {
 			entrance: null
 		}
 	},
-	'900000175006': {
+	'900000175006': { // U Cottbusser Platz
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Cottbusser Platz.jpg'],
 			platform: ['commons', 'U-Bahnhof_Cottbusser_Platz.jpg'],
-			entrance: null
+			entrance: ['commons', 'Cottbusser_Platz_Berlin-Hellersdorf.jpg']
 		}
 	},
 	'900000022201': { // U Deutsche Oper
