@@ -401,12 +401,12 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 6335825554],
 			platform: ['flickr', 'ingolfbln', 8293152370],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8292093209]
 		},
 		U7:  {
 			label: ['flickr', 'ingolfbln', 8480862534],
 			platform: ['flickr', 'ingolfbln', 8479757095],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8292093209]
 		}
 	},
 	'900000079221': { // S+U Hermannstr.
