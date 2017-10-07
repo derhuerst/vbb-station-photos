@@ -1063,9 +1063,10 @@ module.exports = {
 	},
 	'900000016202': { // U Südstern
 		U7:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6396587851],
 			platform: ['flickr', 'ingolfbln', 6396559009],
-			entrance: null
+			entrance: ['flickr', '6396455585', 6396455585]
 		},
 	},
 	'900000120006': { // U Strausberger Platz
