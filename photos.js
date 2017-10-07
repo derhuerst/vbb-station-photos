@@ -190,9 +190,10 @@ module.exports = {
 	},
 	'900000022201': { // U Deutsche Oper
 		U2:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6420520007],
 			platform: ['flickr', 'ingolfbln', 6420536747],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6420404771]
 		}
 	},
 	'900000110006': { // U Eberswalder Str.
