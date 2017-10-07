@@ -534,7 +534,7 @@ module.exports = {
 		U3:  {
 			label: null,
 			platform: ['commons', 'Krummelanke-ubahn.jpg'],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6268024794]
 		}
 	},
 	'900000023203': { // U Kurfürstendamm
