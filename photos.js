@@ -1062,7 +1062,7 @@ module.exports = {
 			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6286996768],
 			platform: ['flickr', 'ingolfbln', 6286974820],
-			entrance: ['flickr', 'ingolfbln', 7965908534]
+			entrance: ['flickr', 'ingolfbln', 7966012042]
 		},
 	},
 	'900000016202': { // U Südstern
