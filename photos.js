@@ -372,10 +372,11 @@ module.exports = {
 	},
 	'900000003201': { // S+U Hauptbahnhof
 		// todo: better platform photo
+		// todo: better entrance photo
 		U55: {
 			label: ['flickr', '142745322@N06', 27516604790],
 			platform: ['flickr', 'ingolfbln', '8013595510'],
-			entrance: null
+			entrance: ['commons', 'Eingang_U_Hauptbahnhof_Friedrich-List-Ufer.jpg']
 		}
 	},
 	'900000100012': { // U Hausvogteiplatz
