@@ -960,7 +960,7 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 6942367173],
 			platform: ['flickr', 'ingolfbln', 6942388737],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6796228438]
 		},
 	},
 	'900000009104': { // S+U Wedding
