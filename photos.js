@@ -353,7 +353,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', 'ingolfbln', 6413038423],
 			platform: ['flickr', 'ingolfbln', 6413402697],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15837170229]
 		}
 	},
 	'900000034102': { // U Haselhorst
