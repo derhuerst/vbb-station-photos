@@ -434,7 +434,7 @@ module.exports = {
 			entrance: ['flickr', 'ingolfbln', 8292048983]
 		}
 	},
-	'900000175010': {
+	'900000175010': { // U Hönow
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Hönow.jpg'],
 			platform: ['commons', 'UBahnhf_Hoenow.JPG'],
