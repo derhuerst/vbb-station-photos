@@ -1105,7 +1105,7 @@ module.exports = {
 		U2:  {
 			label: ['commons', 'Berlin_-_U-Bahnhof_Sophie-Charlotte-Platz_-_Linie_U2_(6945055571).jpg'],
 			platform: ['flickr', 'ingolfbln', 6945035051],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6944998365]
 		},
 	},
 	'900000035101': { // U Siemensdamm
