@@ -1155,9 +1155,10 @@ module.exports = {
 	},
 	'900000062203': { // U Schloßstraße
 		U9:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6661967795],
 			platform: ['flickr', 'ingolfbln', 6659854511],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6660579041]
 		},
 	},
 	'900000110001': { // S+U Schönhauser Allee
