@@ -756,7 +756,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 6261170363],
 			platform: ['flickr', 'ingolfbln', 6261163011],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7908860860]
 		}
 	},
 	'900000009203': { // U Pankstr.
