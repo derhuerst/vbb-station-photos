@@ -310,9 +310,10 @@ module.exports = {
 	},
 	'900000014101': { // U Görlitzer Bahnhof
 		U1:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6396112665],
 			platform: ['flickr', 'ingolfbln', 6800825848],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6396202505]
 		}
 	},
 	'900000080202': { // U Grenzallee
