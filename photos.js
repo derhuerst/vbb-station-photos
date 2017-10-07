@@ -1042,9 +1042,10 @@ module.exports = {
 	},
 	'900000161002': { // U Tierpark
 		U5:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6342263740],
 			platform: ['flickr', 'ingolfbln', 6341467799],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6342465262]
 		},
 	},
 	'900000026201': { // U Theodor-Heuss-Platz
