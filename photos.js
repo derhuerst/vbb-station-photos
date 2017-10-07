@@ -1153,9 +1153,10 @@ module.exports = {
 	},
 	'900000100017': { // U Schillingstraße
 		U5:  {
+			// todo: better entrance photo
 			label: ['commons', 'Schillingstraße_subway_sign_01.JPG'],
 			platform: ['flickr', 'ingolfbln', 6261633179],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6262162054]
 		},
 	},
 	'900000014102': { // U Schlesisches Tor
