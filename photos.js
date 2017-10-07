@@ -1085,7 +1085,7 @@ module.exports = {
 		U5:  {
 			label: ['flickr', 'ingolfbln', 6261512671],
 			platform: ['flickr', 'ingolfbln', 6262016490],
-			entrance: null
+			entrance: ['commons', 'Karl-Marx-Allee_Block_B_Süd_Berlin_April_2006_100.jpg']
 		},
 	},
 	'900000100011': { // U Stadtmitte
