@@ -225,15 +225,16 @@ module.exports = {
 		}
 	},
 	'900000041101': { // U Fehrbelliner Platz
+		// todo: better entrance photos
 		U3:  {
 			label: ['flickr', 'ingolfbln', 6384603637],
 			platform: ['flickr', 'ingolfbln', 6384672149],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6384870783]
 		},
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6384444067],
 			platform: ['flickr', 'ingolfbln', 6384476157],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6384870783]
 		}
 	},
 	'900000120001': { // S+U Frankfurter Allee
