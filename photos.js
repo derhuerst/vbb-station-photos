@@ -270,7 +270,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 6885603222],
 			platform: ['flickr', 'ingolfbln', 6885597904],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8289693684]
 		}
 	},
 	'900000061102': { // U Friedrich-Wilhelm-Platz
