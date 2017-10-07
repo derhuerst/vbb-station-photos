@@ -95,8 +95,9 @@ module.exports = {
 	'900000171005': {
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Biesdorf-Süd 01.jpg'],
-			platform: null},
+			platform: null,
 			entrance: null
+		},
 	},
 	'900000002201': { // U Birkenstr.
 		U9:  {
