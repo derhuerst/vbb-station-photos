@@ -923,7 +923,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6461502425],
 			platform: ['flickr', 'ingolfbln', 6461488195],
-			entrance: null
+			entrance: ['commons', 'U-Bahn_Berlin_Yorckstrasse.jpg']
 		},
 	},
 	'900000083102': { // U Wutzkyallee
