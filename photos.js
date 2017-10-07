@@ -209,7 +209,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6385281907],
 			platform: ['flickr', 'ingolfbln', 6385333159],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6385146335]
 		}
 	},
 	'900000171006': { // U Elsterwerdaer Platz
