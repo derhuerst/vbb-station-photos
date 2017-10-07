@@ -629,12 +629,12 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 6659117395],
 			platform: ['flickr', 'ingolfbln', 7882247220],
-			entrance: null
+			entrance: ['commons', 'U-Bahn_Berlin_Mehringdamm_2.jpg']
 		},
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6659117395],
 			platform: ['flickr', 'ingolfbln', 7882247220],
-			entrance: null
+			entrance: ['commons', 'U-Bahn_Berlin_Mehringdamm_2.jpg']
 		}
 	},
 	'900000005252': { // U Mendelssohn-Bartholdy-Park
