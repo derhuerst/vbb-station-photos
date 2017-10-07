@@ -29,7 +29,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6390440937],
 			platform: ['flickr', 'ingolfbln', 6390505317],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6390238869]
 		}
 	},
 	'900000070301': { // U Alt-Mariendorf
