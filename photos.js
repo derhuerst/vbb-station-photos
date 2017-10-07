@@ -284,7 +284,7 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 6521984893],
 			platform: ['flickr', 'ingolfbln', 6521972153],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6522254289]
 		}
 	},
 	'900000017103': { // U Gleisdreieck
