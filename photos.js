@@ -554,9 +554,10 @@ module.exports = {
 	},
 	'900000079201': { // U Leinestr.
 		U8:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6529442213],
 			platform: ['flickr', 'ingolfbln', 15041246505],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 15040862142]
 		}
 	},
 	'900000086160': { // U Lindauer Allee
