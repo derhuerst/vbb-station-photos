@@ -812,9 +812,10 @@ module.exports = {
 	},
 	'900000096410': { // U Rathaus Reinickendorf
 		U8:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6477177115],
 			platform: ['flickr', 'ingolfbln', 6477334537],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6476918377]
 		}
 	},
 	'900000054101': { // U Rathaus Schöneberg
