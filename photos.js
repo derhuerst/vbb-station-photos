@@ -809,9 +809,10 @@ module.exports = {
 	},
 	'900000100020': { // S+U Potsdamer Platz
 		U2:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 7185150538],
 			platform: ['flickr', 'ingolfbln', 7184978836],
-			entrance: null
+			entrance: ['commons', 'U-Bahn_Berlin_Potsdamer_Platz.JPG']
 		}
 	},
 	'900000013103': { // U Prinzenstr.
