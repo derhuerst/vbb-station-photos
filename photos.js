@@ -129,7 +129,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6443698515],
 			platform: ['flickr', 'ingolfbln', 6443688697],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6443648005]
 		}
 	},
 	'900000079202': { // U Boddinstr.
