@@ -485,7 +485,7 @@ module.exports = {
 			entrance: ['flickr', 'ingolfbln', 8428301850]
 		}
 	},
-	'900000175004': {
+	'900000175004': { // Kaulsdorf-Nord
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Kaulsdorf Nord.jpg'],
 			platform: ['commons', 'Ubahnhf-Kaulsdorf-nord.JPG'],
