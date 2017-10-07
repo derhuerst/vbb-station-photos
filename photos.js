@@ -199,9 +199,10 @@ module.exports = {
 	},
 	'900000110006': { // U Eberswalder Str.
 		U2:  {
+			// todo: better entrance photo (maybe)
 			label: ['flickr', 'ingolfbln', 9550979798],
 			platform: ['flickr', 'ingolfbln', 6261075205],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7811953590]
 		}
 	},
 	'900000054103': { // U Eisenacher Str.
