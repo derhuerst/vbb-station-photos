@@ -409,7 +409,7 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 6530852191],
 			platform: ['flickr', 'ingolfbln', 6530841673],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6531244319]
 		}
 	},
 	'900000175007': {
