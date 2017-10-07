@@ -5,17 +5,17 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 6977132297],
 			platform: ['flickr', 'ingolfbln', 6831050998],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7811735286]
 		},
 		U5:  {
 			label: ['flickr', 'ingolfbln', 6904300029],
 			platform: ['flickr', 'ingolfbln', 6904572417],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7811735286]
 		},
 		U8:  {
 			label: ['commons', 'Berlin_-_Bahnhof_Alexanderplatz3.jpg'],
 			platform: ['flickr', 'ingolfbln', 7624771658],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7811735286]
 		}
 	},
 	'900000011102': { // U Afrikanische Straße
