@@ -833,9 +833,10 @@ module.exports = {
 	},
 	'900000062202': { // S+U Rathaus Steglitz
 		U9:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6657024963],
 			platform: ['flickr', 'ingolfbln', 6657102745],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6655265707]
 		}
 	},
 	'900000011101': { // U Rehberge
