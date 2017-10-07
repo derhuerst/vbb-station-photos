@@ -74,15 +74,16 @@ module.exports = {
 		}
 	},
 	'900000044201': { // U Berliner Str.
+		// todo: better entrance photos
 		U7:  {
 			label: ['flickr', '142745322@N06', 27760600346],
 			platform: ['commons', 'U-Bahn_Berlin_Berliner_Straße.jpg'],
-			entrance: null
+			entrance: ['commons', 'U-Bahnhof_Berliner_Straße_im_Winter_20141229_5.jpg']
 		},
 		U9:  {
 			label: ['flickr', '142745322@N06', 27760595616],
 			platform: ['commons', 'Berlinerstr-u9-ubahn.jpg'],
-			entrance: null
+			entrance: ['commons', 'U-Bahnhof_Berliner_Straße_im_Winter_20141229_5.jpg']
 		}
 	},
 	'900000007110': { // U Bernauer Str.
