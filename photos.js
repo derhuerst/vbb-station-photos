@@ -307,7 +307,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6335901482],
 			platform: ['flickr', 'ingolfbln', 8292125259],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6335933580]
 		}
 	},
 	'900000014101': { // U Görlitzer Bahnhof
