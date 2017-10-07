@@ -674,9 +674,10 @@ module.exports = {
 	},
 	'900000100009': { // U Naturkundemuseum
 		U6:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6286546455],
 			platform: ['flickr', 'ingolfbln', 6286600655],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6286595257]
 		}
 	},
 	'900000009201': { // U Nauener Platz
