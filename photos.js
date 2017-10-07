@@ -174,7 +174,7 @@ module.exports = {
 		U55: {
 			label: ['flickr', 'ingolfbln', 22004585159],
 			platform: ['flickr', 'ingolfbln', 22003394950],
-			entrance: null
+			entrance: ['commons', 'Berlin-u-bahn-station-bundestag-2010-877.jpg']
 		}
 	},
 	'900000044202': { // S+U Bundesplatz
