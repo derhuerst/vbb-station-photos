@@ -989,7 +989,7 @@ module.exports = {
 		U1:  {
 			label: ['flickr', 'ingolfbln', 7658948668],
 			platform: ['flickr', 'ingolfbln', 7658942980],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 7658922794]
 		},
 	},
 	'900000061101': { // U Walther-Schreiber-Platz
