@@ -509,9 +509,10 @@ module.exports = {
 	},
 	'900000012102': { // U Kochstr./Checkpoint Charlie
 		U6:  {
+			// todo: better entrance photo
 			label: ['flickr', '142745322@N06', 27516587910],
 			platform: ['commons', 'Kochstr-ubahn.jpg'],
-			entrance: null
+			entrance: ['commons', 'U-Kochstr.jpg']
 		}
 	},
 	'900000041201': { // U Konstanzer Str.
