@@ -617,7 +617,7 @@ module.exports = {
 		U2:  {
 			label: ['flickr', 'ingolfbln', 6286782697],
 			platform: ['flickr', 'ingolfbln', 6286717865],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6287161648]
 		}
 	},
 	'900000017101': { // U Mehringdamm
