@@ -87,9 +87,10 @@ module.exports = {
 	},
 	'900000007110': { // U Bernauer Str.
 		U8:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6335397247],
 			platform: ['flickr', 'ingolfbln', 6335405259],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6335432981]
 		}
 	},
 	'900000171005': {
