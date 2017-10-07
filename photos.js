@@ -136,9 +136,10 @@ module.exports = {
 	},
 	'900000079202': { // U Boddinstr.
 		U8:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 15018334836],
 			platform: ['flickr', 'ingolfbln', 15041298645],
-			entrance: null
+			entrance: ['commons', 'U-Bahnhof_Boddinstraße_(Berlin)_-_2017_-_1.jpg']
 		}
 	},
 	'900000088202': { // U Borsigwerke
