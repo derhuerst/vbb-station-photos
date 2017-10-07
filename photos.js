@@ -252,9 +252,10 @@ module.exports = {
 	},
 	'900000100027': { // U Französische Str.
 		U6:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 7046228347],
 			platform: ['flickr', 'ingolfbln', 7046199547],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6900168466]
 		}
 	},
 	'900000161512': { // U Friedrichsfelde
