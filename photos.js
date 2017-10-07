@@ -103,7 +103,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', 'ingolfbln', 6413815835],
 			platform: ['flickr', 'ingolfbln', 6413561591],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 9550950662]
 		}
 	},
 	'900000024201': { // U Bismarckstr.
