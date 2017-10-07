@@ -857,9 +857,10 @@ module.exports = {
 	},
 	'900000022202': { // U Richard-Wagner-Platz
 		U7:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6421207533],
 			platform: ['flickr', 'ingolfbln', 6426655557],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 6426590201]
 		}
 	},
 	'900000036101': { // U Rohrdamm
