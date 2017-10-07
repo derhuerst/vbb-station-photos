@@ -385,7 +385,7 @@ module.exports = {
 		U3:  {
 			label: ['flickr', 'ingolfbln', 8294597799],
 			platform: ['flickr', 'ingolfbln', 8294606457],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8295609008]
 		}
 	},
 	'900000100008': { // U Heinrich-Heine-Str.
