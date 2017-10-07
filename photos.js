@@ -742,7 +742,7 @@ module.exports = {
 		U6:  {
 			label: ['flickr', '142745322@N06', 27516578870],
 			platform: ['commons', 'U-Bahn_Berlin_Oranienburger_Tor.jpg'],
-			entrance: null
+			entrance: ['commons', 'U-Bahnhof_Oranienburger_Tor,_entrance_and_tram_stop_(6976434226).jpg']
 		}
 	},
 	'900000009202': { // U Osloer Str.
