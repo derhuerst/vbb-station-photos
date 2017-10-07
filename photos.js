@@ -1190,9 +1190,10 @@ module.exports = {
 	},
 	'900000016201': { // U Schönleinstraße
 		U8:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6528982091],
 			platform: ['flickr', 'ingolfbln', 6528938699],
-			entrance: null
+			entrance: ['commons', 'Kottbusser_Damm_-_panoramio_-_Uli_Herrmann_(1).jpg']
 		},
 	},
 	'900000023201': { // S+U Zoologischer Garten
