@@ -420,7 +420,7 @@ module.exports = {
 			entrance: ['flickr', 'ingolfbln', 6531244319]
 		}
 	},
-	'900000175007': {
+	'900000175007': { // U Hellersdorf
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Hellersdorf.jpg'],
 			platform: ['commons', 'Hellersdorf-ubahn.jpg'],
