@@ -570,10 +570,9 @@ module.exports = {
 		}
 	},
 	'900000086160': { // U Lindauer Allee
-		// todo: missing photo showing the name
 		// todo: better entrance photo
 		U8:  {
-			label: null,
+			label: ['flickr', '123333813@N04', 34197846746],
 			platform: ['flickr', 'ingolfbln', 7806998528],
 			entrance: ['flickr', 'ingolfbln', 7806929326]
 		}
