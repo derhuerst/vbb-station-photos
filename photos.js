@@ -438,7 +438,7 @@ module.exports = {
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Hönow.jpg'],
 			platform: ['commons', 'UBahnhf_Hoenow.JPG'],
-			entrance: null
+			entrance: ['flickr', 'sludgeulper', 7986183530]
 		}
 	},
 	'900000018101': { // U Jakob-Kaiser-Platz
