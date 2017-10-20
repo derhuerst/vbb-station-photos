@@ -605,9 +605,10 @@ module.exports = {
 	},
 	'900000160004': { // S+U Lichtenberg
 		U5:  {
+			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6348818924],
 			platform: ['flickr', 'ingolfbln', 6348834488],
-			entrance: null
+			entrance: ['flickr', 'sigalrm', 35774979782]
 		}
 	},
 	'900000160005': { // U Magdalenenstr.
