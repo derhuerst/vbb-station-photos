@@ -1155,7 +1155,7 @@ module.exports = {
 		U5:  {
 			label: ['commons', 'Samariterstraße_(15186253620).jpg'],
 			platform: ['flickr', 'ingolfbln', 6261366635],
-			entrance: null
+			entrance: ['flickr', '_timl', 4699602637]
 		},
 	},
 	'900000100017': { // U Schillingstraße
