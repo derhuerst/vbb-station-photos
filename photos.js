@@ -600,7 +600,7 @@ module.exports = {
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Louis-Lewin-Straße.jpg'],
 			platform: ['commons', 'U-Bahn_Berlin_U5_Louis-Lewin-Strasse.JPG'],
-			entrance: null
+			entrance: ['flickr', 'sludgeulper', 7986168793]
 		}
 	},
 	'900000160004': { // S+U Lichtenberg
