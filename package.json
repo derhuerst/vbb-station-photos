@@ -34,7 +34,7 @@
 		"queue": "^4",
 		"tap-min": "^1.2.0",
 		"tape": "^4.6.2",
-		"vbb-stations": "^5.5.0"
+		"vbb-stations": "^6.0.0"
 	},
 	"scripts": {
 		"build": "rm data/*.jpg;node build.js",
