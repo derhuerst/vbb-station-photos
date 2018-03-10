@@ -375,7 +375,7 @@ module.exports = {
 		// todo: better entrance photo
 		U55: {
 			label: ['flickr', '142745322@N06', 27516604790],
-			platform: ['flickr', 'ingolfbln', '8013595510'],
+			platform: ['flickr', 'ingolfbln', 8013595510],
 			entrance: ['commons', 'Eingang_U_Hauptbahnhof_Friedrich-List-Ufer.jpg']
 		}
 	},
