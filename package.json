@@ -2,11 +2,10 @@
 	"name": "vbb-station-photos",
 	"description": "Photos of every subway station in Berlin.",
 	"version": "1.2.0",
-	"main": "index.js",
+	"main": "index.json",
 	"files": [
-		"index.js",
-		"photos.js",
-		"data/*"
+		"index.json",
+		"photos.js"
 	],
 	"keywords": [
 		"vbb",
@@ -29,15 +28,13 @@
 	"devDependencies": {
 		"commons-photo-url": "^0.1.2",
 		"flickr-photo-url": "^1",
-		"got": "^8.0.0",
-		"imageoptim-cli": "^1.14.8",
 		"queue": "^4",
 		"tap-min": "^1.2.0",
 		"tape": "^4.6.2",
 		"vbb-stations": "^6.0.0"
 	},
 	"scripts": {
-		"build": "rm data/*.jpg;node build.js",
+		"build": "node build.js >index.json",
 		"test": "tape test.js | tap-min",
 		"optimize": "imageOptim -d ./data -q",
 		"prepublishOnly": "npm run build && npm test"
