@@ -1078,7 +1078,7 @@ module.exports = {
 			// todo: better entrance photo
 			label: ['flickr', 'ingolfbln', 6396587851],
 			platform: ['flickr', 'ingolfbln', 6396559009],
-			entrance: ['flickr', '6396455585', 6396455585]
+			entrance: ['flickr', 'ingolfbln', 6396455585]
 		},
 	},
 	'900000120006': { // U Strausberger Platz
