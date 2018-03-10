@@ -1,35 +1,25 @@
-#!/usr/bin/env node
 'use strict'
 
-const test   = require('tape')
-const fs     = require('fs')
+const test = require('tape')
 const stations = require('vbb-stations')
 
-const photo = require('./index')
+const photos = require('.')
 
-test('file exists', (t) => {
-	t.plan(2)
-	const path = photo('900000009102', 'U9', 'platform')
-	t.equal(typeof path, 'string')
-	fs.stat(path, (err, stats) => {
-		if (err) return t.fail(err.message)
-		t.pass('file exists')
-	})
-})
-
-test('returns null for invalid requests', (t) => {
-	t.plan(3)
-	t.equal(photo('100000000000', 'U9', 'platform'), null)
-	t.equal(photo('900000009102', 'Z7', 'platform'), null)
-	t.equal(photo('900000009102', 'U9', 'fooooooo'), null)
+test('has some URLs', (t) => {
+	t.plan(4)
+	t.equal(typeof photos.original['900000009102'].U9.platform, 'string')
+	t.equal(typeof photos.large['900000009102'].U9.platform, 'string')
+	t.equal(typeof photos.medium['900000009102'].U9.platform, 'string')
+	t.equal(typeof photos.small['900000009102'].U9.platform, 'string')
+	// todo: check if urls exist
 })
 
 test('every station id is valid', (t) => {
-	t.plan(Object.keys(photo.list).length * 2)
+	const ids = Object.keys(photos.original)
 
-	for (let id in photo.list) {
-		const res = stations(id)
-		t.ok(Array.isArray(res))
-		t.ok(res[0], `${id} doesn't exist`)
+	t.plan(ids.length)
+	for (let id of ids) {
+		const [station] = stations(id)
+		t.ok(station, `${id} doesn't exist`)
 	}
 })

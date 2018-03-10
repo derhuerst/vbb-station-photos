@@ -39,7 +39,7 @@
 	},
 	"scripts": {
 		"build": "node build.js",
-		"test": "tape test.js | tap-min",
+		"test": "node test.js | tap-min",
 		"optimize": "imageOptim -d ./data -q",
 		"prepublishOnly": "npm run build && npm test"
 	}
