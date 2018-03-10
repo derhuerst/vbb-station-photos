@@ -147,7 +147,7 @@ module.exports = {
 	},
 	'900000003201': { // S+U Hauptbahnhof
 		// todo: better platform photo
-		U55: {label: ['flickr', '142745322@N06', 27516604790],  platform: ['flickr', 'ingolfbln', '8013595510']}
+		U55: {label: ['flickr', '142745322@N06', 27516604790],  platform: ['flickr', 'ingolfbln', 8013595510]}
 	},
 	'900000100012': { // U Hausvogteiplatz
 		U2:  {label: ['flickr', 'ingolfbln', 8428213432],  platform: ['flickr', 'ingolfbln', 8427115893]}
