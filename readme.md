@@ -4,10 +4,9 @@
 
 [![npm version](https://img.shields.io/npm/v/vbb-station-photos.svg)](https://www.npmjs.com/package/vbb-station-photos)
 [![build status](https://img.shields.io/travis/derhuerst/vbb-station-photos.svg)](https://travis-ci.org/derhuerst/vbb-station-photos)
-[![dependency status](https://img.shields.io/david/derhuerst/vbb-station-photos.svg)](https://david-dm.org/derhuerst/vbb-station-photos)
-[![dev dependency status](https://img.shields.io/david/dev/derhuerst/vbb-station-photos.svg)](https://david-dm.org/derhuerst/vbb-station-photos#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-station-photos.svg)
 [![gitter channel](https://badges.gitter.im/derhuerst/vbb-rest.svg)](https://gitter.im/derhuerst/vbb-rest)
+[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
 
 
 ## Installing
@@ -20,15 +19,25 @@ npm install vbb-station-photos
 ## Usage
 
 ```
-photo(stationId, line, [perspective])
+const photos = require('vbb-station-photos')
+
+const station = '900000017103' // U Gleisdreieck
+const line = 'U1'
+
+console.log(photos.original[station][line])
 ```
 
-Returns the file path as a string.
-
 ```js
-const photo = require('vbb-station-photos')
-console.log(photo(9007103, 'U8', 'label'))
-// /Users/j/web/vbb-station-photos/data/9007103-U8-label.jpg
+{
+	label: 'https://c1.staticflickr.com/9/8315/7931788740_400098a074_o.jpg',
+	platform: 'https://c1.staticflickr.com/9/8042/7931841660_923be9cfc6_o.jpg'
+}
+```
+
+Available sizes are `original`, `large`, `medium` and `small`. You can also `require` only the urls of a particular image size:
+
+```
+const photos = require('vbb-station-photos/medium.json')
 ```
 
 
