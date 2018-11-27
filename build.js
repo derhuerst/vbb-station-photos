@@ -5,12 +5,21 @@ const flickr = require('flickr-photo-url')
 const commons = require('commons-photo-url')
 const fs = require('fs')
 const path = require('path')
+const fetch = require('node-fetch')
 
 const photos = require('./photos')
 
 const showError = (err) => {
 	console.error(err)
 	process.exitCode = 1
+}
+
+const checkUrl = (url) => {
+	return fetch(url, {redirect: 'follow'})
+	.then((res) => {
+		if (res.ok) return url
+		throw new Error(res.status + ': ' + url)
+	})
 }
 
 const sizes = ['original', 'large', 'medium', 'small']
@@ -27,7 +36,9 @@ const resolveLink = (station, line, perspective, size) => {
 			p = Promise.resolve(commons(link[1]), commons.sizes[size])
 		} else return cb(null, new Error('unknown link type:' + link[0]))
 
-		p.then((url) => {
+		p
+		.then(checkUrl)
+		.then((url) => {
 			let o = urls[size] || (urls[size] = {})
 			o = o[station] || (o[station] = {})
 			o = o[line] || (o[line] = {})
