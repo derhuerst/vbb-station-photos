@@ -110,7 +110,7 @@ module.exports = {
 	},
 	'900000024201': { // U Bismarckstr.
 		U2:  {
-			label: ['flickr', 'ingolfbln', 6420827133],
+			label: ['commons', 'U_Bismarckstraße_Schild_U2.jpg'],
 			platform: ['flickr', 'ingolfbln', 6420684483],
 			entrance: null
 		},
