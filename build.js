@@ -37,7 +37,7 @@ const resolveLink = throttle((station, line, perspective, size) => {
 	} else return cb(null, new Error('unknown link type:' + link[0]))
 
 	return p.then(checkUrl)
-}, 10, 10000)
+}, 5, 10000)
 
 const queue = createQueue({concurrency: 8, autostart: true})
 
