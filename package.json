@@ -31,7 +31,7 @@
 	},
 	"devDependencies": {
 		"commons-photo-url": "^0.1.2",
-		"flickr-photo-url": "^1",
+		"flickr-photo-url": "^2.0.0",
 		"node-fetch": "^2.3.0",
 		"p-throttle": "^2.0.0",
 		"queue": "^5.0.0",
