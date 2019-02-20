@@ -30,8 +30,8 @@
 		"node": ">=6"
 	},
 	"devDependencies": {
-		"commons-photo-url": "^0.1.2",
-		"flickr-photo-url": "^1",
+		"commons-photo-url": "^1.0.0",
+		"flickr-photo-url": "^2.0.1",
 		"node-fetch": "^2.3.0",
 		"p-retry": "^3.0.1",
 		"p-throttle": "^3.0.0",

@@ -5,6 +5,8 @@ Thumbs.db
 node_modules
 npm-debug.log
 
+/package-lock.json
+
 original.json
 large.json
 medium.json
