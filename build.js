@@ -3,6 +3,7 @@
 const createQueue = require('queue')
 const _findFlickrUrl = require('flickr-photo-url')
 const commonsUrl = require('commons-photo-url')
+const retry = require('p-retry');
 const throttle = require('p-throttle');
 const fs = require('fs')
 const path = require('path')
@@ -19,26 +20,42 @@ const _checkUrl = (url) => {
 	return fetch(url, {redirect: 'follow'})
 	.then((res) => {
 		if (res.ok) return url
-		throw new Error(res.status + ': ' + url)
+		const err = new Error(res.status + ': ' + url)
+		err.statusCode = res.status
+		throw err
 	})
 }
 const checkUrl = throttle(_checkUrl, 5, 10 * 1000)
 
 const sizes = ['original', 'large', 'medium', 'small']
-const urls = {original: {}, large: {}, medium: {}, small: {}}
+const urls = {
+	original: Object.create(null),
+	large: Object.create(null),
+	medium: Object.create(null),
+	small: Object.create(null)
+}
 
 const findFlickrUrl = throttle(_findFlickrUrl, 5, 10 * 1000)
 const resolveLink = (station, line, perspective, size) => {
 	const link = photos[station][line][perspective]
 
-	let p
-	if (link[0] === 'flickr') {
-		p = findFlickrUrl(link[1], link[2], flickr.sizes[size])
-	} else if (link[0] === 'commons') {
-		p = Promise.resolve(commons(link[1]), commons.sizes[size])
-	} else return cb(null, new Error('unknown link type:' + link[0]))
+	const run = () => {
+		let p
+		if (link[0] === 'flickr') {
+			p = findFlickrUrl(link[1], link[2], _findFlickrUrl.sizes[size])
+		} else if (link[0] === 'commons') {
+			p = Promise.resolve(commons(link[1], commons.sizes[size]))
+		} else return Promise.reject(new Error('unknown link type:' + link[0]))
 
-	return p.then(checkUrl)
+		return p
+		.then(checkUrl)
+		.catch((err) => {
+			if (err.statusCode === 404) throw new retry.AbortError(link.join(', ') + ' not found')
+			throw err
+		})
+	}
+
+	return retry(run, {retries: 3, minTimeout: 10 * 10000})
 }
 
 const queue = createQueue({concurrency: 8, autostart: true})
