@@ -12,11 +12,12 @@ const fetch = require('node-fetch')
 const photos = require('./photos')
 
 const showError = (err) => {
-	console.error(err)
+	console.error(err + '')
 	process.exitCode = 1
 }
 
 const _checkUrl = (url) => {
+	// todo: HEAD request?
 	return fetch(url, {redirect: 'follow'})
 	.then((res) => {
 		if (res.ok) return url
@@ -44,7 +45,7 @@ const resolveLink = (station, line, perspective, size) => {
 		if (link[0] === 'flickr') {
 			p = findFlickrUrl(link[1], link[2], _findFlickrUrl.sizes[size])
 		} else if (link[0] === 'commons') {
-			p = Promise.resolve(commons(link[1], commons.sizes[size]))
+			p = Promise.resolve(commonsUrl(link[1], commonsUrl.sizes[size]))
 		} else return Promise.reject(new Error('unknown link type:' + link[0]))
 
 		return p
@@ -58,7 +59,7 @@ const resolveLink = (station, line, perspective, size) => {
 	return retry(run, {retries: 3, minTimeout: 10 * 10000})
 }
 
-const queue = createQueue({concurrency: 8, autostart: true})
+const queue = createQueue({concurrency: 16, autostart: true})
 
 for (let station of Object.keys(photos)) {
 	const lines = photos[station]
