@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/vbb-station-photos.svg)](https://www.npmjs.com/package/vbb-station-photos)
 [![build status](https://img.shields.io/travis/derhuerst/vbb-station-photos.svg)](https://travis-ci.org/derhuerst/vbb-station-photos)
+[![build status](https://img.shields.io/codeship/f5b20310-17e8-0137-4231-7af3b78905d2/master.svg)](https://app.codeship.com/projects/328183)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-station-photos.svg)
 [![gitter channel](https://badges.gitter.im/derhuerst/vbb-rest.svg)](https://gitter.im/derhuerst/vbb-rest)
 [![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
