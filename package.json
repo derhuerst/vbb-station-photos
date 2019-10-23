@@ -25,7 +25,7 @@
 	"homepage": "https://github.com/derhuerst/vbb-station-photos",
 	"repository": "derhuerst/vbb-station-photos",
 	"issues": "https://github.com/derhuerst/vbb-station-photos/issues",
-	"license": "ISC",
+	"license": "CC0-1.0",
 	"engines": {
 		"node": ">=6"
 	},
