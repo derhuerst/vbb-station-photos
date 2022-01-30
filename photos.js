@@ -152,11 +152,45 @@ module.exports = {
 		}
 	},
 	'900000100025': { // S+U Brandenburger Tor
-		U55: {
+		U5: {
 			label: ['flickr', 'ingolfbln', 6247517033],
 			platform: ['flickr', 'ingolfbln', 8013530153],
 			entrance: ['flickr', 'ingolfbln', 8013560974],
 		}
+	},
+	'900000100513': { // U Unter den Linden
+		'U5': {
+			label: ['flickr', 'ingolfbln', 50688500611],
+			// also ingolfbln/50687767813
+			platform: ['commons', 'Unter_den_linden_ubahn_station_3.jpg'],
+			// also U-Bahnhof_Unter_den_Linden_-_Fahrstuhl.jpg
+			entrance: ['commons', 'Ein-_und_Ausgang_U-Bahnhof_Unter_den_Linden.jpg'],
+		},
+		'U6': {
+			label: ['flickr', 'ingolfbln', 50687823268],
+			platform: ['flickr', 'ingolfbln', 50688645192],
+			// also U-Bahnhof_Unter_den_Linden_-_Fahrstuhl.jpg
+			entrance: ['commons', 'Ein-_und_Ausgang_U-Bahnhof_Unter_den_Linden.jpg'],
+		},
+	},
+	'900000100537': { // U Museumsinsel
+		'U5': {
+			label: ['flickr', 'lewinb', 51365706228],
+			platform: ['commons', '2021-07-19_U-Bahnhof_Museumsinsel_Berlin_12.jpg'],
+			// also Berlin-Mitte_U-Bahnhof_Museumsinsel_Fahrstuhl-001.jpg
+			entrance: ['commons', '2021-07-19_U-Bahnhof_Museumsinsel_Berlin_02.jpg'],
+		},
+	},
+	'900000100045': { // U Rotes Rathaus
+		'U5': {
+			label: ['flickr', 'ingolfbln', 50687347603],
+			// also Rotes_rathaus_u5_ubahn_station_2.jpg
+			// also Rotes_rathaus_u5_ubahn_station_3.jpg
+			// also Rotes_rathaus_u5_ubahn_station_4.jpg
+			platform: ['commons', 'Rotes_rathaus_u5_ubahn_station_5.jpg'],
+			// todo: find a daylight one
+			entrance: ['flickr', 'ingolfbln', 50687354323],
+		},
 	},
 	'900000080402': { // U Britz-Süd
 		U7:  {
@@ -173,7 +207,7 @@ module.exports = {
 		}
 	},
 	'900000003254': { // U Bundestag
-		U55: {
+		U5: {
 			label: ['flickr', 'ingolfbln', 22004585159],
 			platform: ['flickr', 'ingolfbln', 22003394950],
 			entrance: ['commons', 'Berlin-u-bahn-station-bundestag-2010-877.jpg']
@@ -375,7 +409,7 @@ module.exports = {
 	},
 	'900000003201': { // S+U Hauptbahnhof
 		// todo: better entrance photo
-		U55: {
+		U5: {
 			label: ['flickr', '142745322@N06', 27516604790],
 			platform: ['flickr', 'ingolfbln', 8013572533],
 			entrance: ['commons', 'Eingang_U_Hauptbahnhof_Friedrich-List-Ufer.jpg']
