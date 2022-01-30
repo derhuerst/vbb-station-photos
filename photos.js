@@ -262,7 +262,7 @@ module.exports = {
 	'900000100027': { // U Französische Str.
 		U6:  {
 			// todo: better entrance photo
-			label: ['flickr', 'ingolfbln', 7046228347],
+			label: ['flickr', 'ingolfbln', 50688723027],
 			platform: ['flickr', 'ingolfbln', 7046199547],
 			entrance: ['flickr', 'ingolfbln', 6900168466]
 		}
@@ -539,7 +539,7 @@ module.exports = {
 	},
 	'900000050201': { // U Krumme Lanke
 		U3:  {
-			label: null,
+			label: ['commons', 'U-Bahnhof_Krumme_Lanke,_Bahnsteig.jpg'],
 			platform: ['commons', 'Krummelanke-ubahn.jpg'],
 			entrance: ['flickr', 'ingolfbln', 6268024794]
 		}
@@ -1205,9 +1205,11 @@ module.exports = {
 			platform: ['flickr', 'galio', 4610552275],
 			entrance: ['flickr', 'ingolfbln', 7183961476]
 		},
-		// todo: glynlowe/23075396060 ?
+		// also glynlowe/23075396060
+		// also U-Bahn_station,_Zoologischer_Garten,_Berlin.jpg
+		// also 2021-07-19_U-Bahnhof_Zoologischer_Garten_Berlin_02.jpg
 		U9:  {
-			label: null,
+			label: ['commons', '2021-07-19_U-Bahnhof_Zoologischer_Garten_Berlin_05.jpg'],
 			platform: ['flickr', 'mbell1975', 3793762490],
 			entrance: ['flickr', 'ingolfbln', 7183961476]
 		}
