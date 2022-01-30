@@ -58,7 +58,7 @@ module.exports = {
 		U9:  {
 			label: ['flickr', 'ingolfbln', 6413966751],
 			platform: ['flickr', 'ingolfbln', 6413947281],
-			entrance: null
+			entrance: ['commons', 'Wedding_Augustenburger_Platz_U-Bahn-Eingang.jpg'],
 		}
 	},
 	'900000055102': { // U Bayerischer Platz
@@ -98,7 +98,7 @@ module.exports = {
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Biesdorf-Süd 01.jpg'],
 			platform: null,
-			entrance: null
+			entrance: ['flickr', 'heyeje', 35248345001],
 		},
 	},
 	'900000002201': { // U Birkenstr.
@@ -146,14 +146,16 @@ module.exports = {
 		U6:  {
 			label: ['flickr', 'ingolfbln', 7174241521],
 			platform: ['flickr', 'ingolfbln', 7174238429],
-			entrance: null
+			entrance: ['commons', 'Berlin_U-Bahn_Borsigwerke_U6_Zugang.JPG'],
+			// also Straßenbrunnen_ex_Tegel_BerlinerStraße_Egellsstraße_(1).jpg
+			// also Straßenbrunnen_ex_Tegel_BerlinerStraße_Egellsstraße_(2).jpg
 		}
 	},
 	'900000100025': { // S+U Brandenburger Tor
 		U55: {
 			label: ['flickr', 'ingolfbln', 6247517033],
 			platform: ['flickr', 'ingolfbln', 8013530153],
-			entrance: null
+			entrance: ['flickr', 'ingolfbln', 8013560974],
 		}
 	},
 	'900000080402': { // U Britz-Süd
@@ -216,9 +218,10 @@ module.exports = {
 	},
 	'900000171006': { // U Elsterwerdaer Platz
 		U5:  {
+			// todo: better entrance photo
 			label: ['commons', 'Berlin U-Bahn station Elstawerdaer Platz.jpg'],
 			platform: ['commons', '2005-07-18_ubf_elsterwerdaer_platz_bahnsteig.jpg'],
-			entrance: null
+			entrance: ['commons', '2005-07-18_ubf_elsterwerdaer_platz_treppenhaus.jpg'],
 		}
 	},
 	'900000023101': { // U Ernst-Reuter-Platz
@@ -424,7 +427,7 @@ module.exports = {
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Hellersdorf.jpg'],
 			platform: ['commons', 'Hellersdorf-ubahn.jpg'],
-			entrance: null
+			entrance: ['commons', 'Alice_Salomon_Hochschule_January_2019_01.jpg'],
 		}
 	},
 	'900000043101': { // U Hohenzollernplatz
@@ -459,7 +462,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 6255097490],
 			platform: ['flickr', 'ingolfbln', 6255106242],
-			entrance: null
+			entrance: ['commons', 'Bahnhof_Berlin_Jungfernheide_-_Fußgängertunnel_U-Bahn.jpg'],
 		}
 	},
 	'900000068302': { // U Kaiserin-Augusta-Str.
@@ -467,7 +470,7 @@ module.exports = {
 		U6:  {
 			label: null,
 			platform: ['flickr', 'ingolfbln', 15817428556],
-			entrance: ['flickr', 'ingolfbln', 15655902810]
+			entrance: ['commons', 'Berlin-Tempelhof,_U-Bahnhof_Kaiserin-Augusta-Straße,_Haus_Tempelhofer_Damm_192.JPG']
 		}
 	},
 	'900000096458': { // S+U Karl-Bonhoeffer-Nervenklinik
@@ -895,7 +898,8 @@ module.exports = {
 		U8:  {
 			label: ['flickr', 'ingolfbln', 6335985722],
 			platform: ['flickr', 'ingolfbln', 6335324081],
-			entrance: null
+			// also Ausgang_U-Bahn_Rosenthaler_Platz.jpg
+			entrance: ['commons', 'Conspiracist_protest_Berlin_2021-03-28_05.jpg'],
 		}
 	},
 	'900000045101': { // U Rüdesheimer Platz
@@ -1213,7 +1217,7 @@ module.exports = {
 		U7:  {
 			label: ['flickr', 'ingolfbln', 15324013144],
 			platform: ['flickr', 'ingolfbln', 15758852748],
-			entrance: null
+			entrance: ['commons', 'BlnGropiusstadtZwickauerDammU-BahnSW.jpg'],
 		},
 	}
 }
