@@ -97,7 +97,7 @@ module.exports = {
 	'900000171005': { // U Biesdorf-Süd
 		U5:  {
 			label: ['commons', 'Berlin U-Bahn station Biesdorf-Süd 01.jpg'],
-			platform: null,
+			platform: ['commons', 'U-Bahnhof_Biesdorf-Süd.jpg'],
 			entrance: ['flickr', 'heyeje', 35248345001],
 		},
 	},
@@ -374,11 +374,10 @@ module.exports = {
 		}
 	},
 	'900000003201': { // S+U Hauptbahnhof
-		// todo: better platform photo
 		// todo: better entrance photo
 		U55: {
 			label: ['flickr', '142745322@N06', 27516604790],
-			platform: ['flickr', 'ingolfbln', 8013595510],
+			platform: ['flickr', 'ingolfbln', 8013572533],
 			entrance: ['commons', 'Eingang_U_Hauptbahnhof_Friedrich-List-Ufer.jpg']
 		}
 	},
