@@ -38,7 +38,7 @@
 		"queue": "^6.0.0",
 		"tap-min": "^2.0.0",
 		"tape": "^5.0.0",
-		"vbb-stations": "^6.8.0"
+		"vbb-stations": "^8.0.0"
 	},
 	"scripts": {
 		"build": "node build.js",
