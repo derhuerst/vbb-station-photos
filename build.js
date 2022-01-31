@@ -43,7 +43,7 @@ const findFlickrUrl = throttle({
 	limit: 5,
 	interval: 10 * 1000, // 10s
 })(_findFlickrUrl)
-const resolveLink = (station, line, perspective, size) => {
+const resolveLink = (station, line, perspective, size, check = size === 'original') => {
 	const link = photos[station][line][perspective]
 
 	const run = () => {
