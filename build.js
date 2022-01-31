@@ -26,7 +26,10 @@ const _checkUrl = (url) => {
 		throw err
 	})
 }
-const checkUrl = throttle(_checkUrl, 5, 10 * 1000)
+const checkUrl = throttle({
+	limit: 5,
+	interval: 10 * 1000, // 10s
+})(_checkUrl)
 
 const sizes = ['original', 'large', 'medium', 'small']
 const urls = {
@@ -36,7 +39,10 @@ const urls = {
 	small: Object.create(null)
 }
 
-const findFlickrUrl = throttle(_findFlickrUrl, 5, 10 * 1000)
+const findFlickrUrl = throttle({
+	limit: 5,
+	interval: 10 * 1000, // 10s
+})(_findFlickrUrl)
 const resolveLink = (station, line, perspective, size) => {
 	const link = photos[station][line][perspective]
 
@@ -48,8 +54,8 @@ const resolveLink = (station, line, perspective, size) => {
 			p = Promise.resolve(commonsUrl(link[1], commonsUrl.sizes[size]))
 		} else return Promise.reject(new Error('unknown link type:' + link[0]))
 
+		if (check) p = p.then(checkUrl)
 		return p
-		.then(checkUrl)
 		.catch((err) => {
 			if (err.statusCode === 404) throw new retry.AbortError(link.join(', ') + ' not found')
 			throw err

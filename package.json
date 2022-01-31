@@ -27,16 +27,16 @@
 	"issues": "https://github.com/derhuerst/vbb-station-photos/issues",
 	"license": "CC0-1.0",
 	"engines": {
-		"node": ">=6"
+		"node": ">=16"
 	},
 	"devDependencies": {
 		"commons-photo-url": "^1.0.0",
 		"flickr-photo-url": "^2.0.1",
 		"node-fetch": "^2.3.0",
 		"p-retry": "^4.0.0",
-		"p-throttle": "^3.0.0",
+		"p-throttle": "^4.1.1",
 		"queue": "^6.0.0",
-		"tap-min": "^1.2.0",
+		"tap-min": "^2.0.0",
 		"tape": "^5.0.0",
 		"vbb-stations": "^6.8.0"
 	},
